@@ -137,14 +137,14 @@ function uploadData()
 	document.getElementById("myProgress").style.backgroundColor = "grey";
 	
 	//Reference the input file element.
-	var xlsfile = document.getElementById("fileInput");
-	if (xlsfile.files.length == 0) 
+	var datfile = document.getElementById("fileInput");
+	if (datfile.files.length == 0) 
 	{
 		alert("Database file is not select yet.\nBrowse and choose input database file first");
 		return;
 	}
 	
-	console.log("File selected: " + xlsfile.files[0].name);
+	console.log("File selected: " + datfile.files[0].name);
 	myBar.style.width = "10%";
 	
 	var reader = new FileReader();
@@ -162,20 +162,19 @@ function uploadData()
 		getDataFromExcel(e.target.result);
 	};
 	
-	reader.readAsBinaryString(xlsfile.files[0]);
+	reader.readAsBinaryString(datfile.files[0]);
 };
 	
 function getDataFromExcel(data) 
 {
-	//Read the Excel File data in binary
+	//Read the data in binary
 	var workbook = XLSX.read(data, {type: 'binary'});
 	var myBar = document.getElementById("myBar");
 	myBar.style.width = "25%";
 	
-	//get the name of First Sheet.
 	var Sheet = workbook.SheetNames[0];
  
-	//Read all rows from First Sheet into an JSON array.
+	//Read all rows into an JSON array.
 	excelRows = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[Sheet]);
 	if (excelRows.length == 0)
 	{
@@ -187,9 +186,9 @@ function getDataFromExcel(data)
 	
 	num = validate();
 	
-	var xlsfile = document.getElementById("fileInput");
+	var datfile = document.getElementById("fileInput");
 	var label = document.getElementById("nrec");
-	label.innerHTML = "Loaded <b>" + xlsfile.files[0].name + "</b>!!! <br>Found <b>" + num + "</b> records in the database.";
+	label.innerHTML = "Loaded <b>" + datfile.files[0].name + "</b>!!! <br>Found <b>" + num + "</b> records in the database.";
 	label.style.display = "inline";
 	
 	myBar.style.width = "100%";

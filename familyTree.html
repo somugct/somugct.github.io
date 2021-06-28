@@ -6,6 +6,9 @@
 	<meta http-equiv = "Content-Script-Type" content = "text/JavaScript" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 	<link rel="stylesheet" href="css/my.css">
 	<script src="scripts/xlsx.js"></script>
@@ -24,7 +27,7 @@
 				<h1 class="my-center">Our Family Tree!</h1>
 				<!--<label>Choose the database file: </label>-->
 				<div class="my-center">
-					<input type="file" style="display: none" id="fileInput" name = "FamilyTree" accept=".xlsx">
+					<input type="file" style="display: none" id="fileInput" name = "FamilyTree" accept=".dat">
 					<button class="my-button" id="fileSelect">Select the database file</button>
 				</div>
 				<div id="myProgress">
