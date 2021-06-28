@@ -1,0 +1,528 @@
+html {box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html,body {font-family: "Roboto", sans-serif; font-size:15px;line-height:1.5}
+h1,h2,h3,h4,h5,h6 {font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}
+html {overflow-x:hidden}
+h1 {font-size:36px} 
+h2 {font-size:30px}
+h3 {font-size:24px}
+h4 {font-size:20px}
+h5 {font-size:18px}
+h6 {font-size:16px}
+
+hr { border:0; border-top:2px solid #eee; margin:20px 0 }
+a { background-color:transparent }
+a:active,a:hover {outline-width:0 }
+img { border-style:none }
+footer { display: block }
+
+.my-sand,.my-hover-sand:hover
+{
+	color:#000!important;
+	background-color:#fdf5e6!important
+}
+.my-teal,.my-hover-teal:hover
+{
+	color:#fff!important;
+	background-color:#009688!important
+}
+.my-light-grey,.my-hover-light-grey:hover
+{
+	color:#000!important;
+	background-color:#f1f1f1!important
+}
+.my-text-teal,.my-hover-text-teal:hover
+{
+	color:#009688!important
+}
+.my-text-grey,.my-hover-text-grey:hover
+{
+	color:#757575!important
+}
+.my-white
+{
+	color:#000!important;
+	background-color:#fff!important
+}
+.my-text-blue
+{
+	color:#2196F3!important
+}
+.my-text-deep-purple
+{
+	color:#673ab7!important
+}
+.my-text-deep-orange
+{
+	color:#ff5722!important
+}
+.my-center
+{
+	text-align:center!important
+}
+.my-margin-top
+{
+	margin-top:16px!important
+}
+.my-margin-bottom
+{
+	margin-bottom:16px!important
+}
+.my-margin-left
+{
+	margin-left:16px!important
+}
+.my-margin-right
+{
+	margin-right:16px!important
+}
+.my-left
+{
+	float:left!important
+}
+.my-right
+{
+	float:right!important
+}
+.my-display-container
+{
+	position:relative
+}
+.my-card-2
+{
+	box-shadow:0 2px 5px 1px rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.my-card-4
+{
+	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+.my-shadow
+{
+	box-shadow:0 6px 10px 2px black, 0 4px 20px 0 rgba(0,0,0,0.19)
+}
+.my-tiny
+{
+	font-size:10px!important
+}
+.my-small
+{
+	font-size:12px!important
+}
+.my-medium
+{
+	font-size:15px!important
+}
+.my-large
+{
+	font-size:16px!important
+}
+.my-xlarge
+{
+	font-size:24px!important
+}
+.my-xxlarge
+{
+	font-size:36px!important
+}
+.my-xxxlarge
+{
+	font-size:48px!important
+}
+.my-jumbo
+{
+	font-size:64px!important
+}
+.my-twelveth,.my-eighth,.my-seventh,.my-sixth,.my-fifth,.my-quarter,.my-third,.my-half,.my-twothird,.my-threequarter,.my-fullwidth
+{
+	float:left;
+	width:100%
+}
+@media (min-width:601px)
+{
+	.my-twelveth { width:8.3333333% }
+	.my-eighth { width:12.5% }
+	.my-seventh { width:14.28% }	
+	.my-sixth { width:16.66666%	}
+	.my-fifth {	width:20% }
+	.my-quarter { width:25% }
+	.my-third {	width:33.33333%	}
+	.my-half { width:50% }
+	.my-twothird { width:66.66666% }
+	.my-threequarter { width:75% }
+}
+.my-row-padding, 
+.my-row-padding > .my-half, 
+.my-row-padding > .my-third, 
+.my-row-padding > .my-twothird, 
+.my-row-padding > .my-threequarter, 
+.my-row-padding > .my-quarter, 
+.my-row-padding > .my-fifth, 
+.my-row-padding > .my-sixth, 
+.my-row-padding > .my-seventh,
+.my-row-padding > .my-eighth,
+.my-row-padding > .my-twelveth,
+.my-row-padding > .my-fullwidth
+{
+	padding:0 8px
+}
+.my-container:after,.my-container:before,.my-row-padding:after,.my-row-padding:before
+{
+	content:"";
+	display: table;
+	clear:both
+}
+.my-container
+{
+	padding:0.01em 16px
+}
+label 
+{ 
+	font-size: 14px 
+}
+.my-image,.my-dummy-image
+{
+	border-radius: 50%;
+	width:100%;
+	max-width:130px;
+	max-height:130px;
+	cursor: pointer;
+	vertical-align: middle;
+	border:2px solid black;
+	/* border: 5px double black; */
+	padding: 2px 2px;
+}
+ .my-image-highlight
+{
+	border-radius: 10%!important;
+	border: 5px double red!important
+ }
+.my-image:hover 
+{
+	opacity: 0.8;
+}
+.my-dummy-image,.my-dummy-image-hover:hover
+{
+	cursor: default;
+	opacity: 0.0
+}
+.my-dummy-text
+{
+	opacity: 0.0
+}
+@-webkit-keyframes blink 
+{
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    75% {
+        opacity: 0.4;
+    }	
+    100% {
+        opacity: 0.3;
+    }
+}
+@-moz-keyframes blink 
+{
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    75% {
+        opacity: 0.4;
+    }	
+    100% {
+        opacity: 0.3;
+    }
+}
+@-o-keyframes blink 
+{
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    75% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}
+.my-blink-img 
+{
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+	border-radius: 10%;
+	width:100%;
+	max-width:130px;
+	max-height:130px;
+	cursor: pointer;
+	vertical-align: middle;
+	padding: 2px 2px;
+	border: 5px double red!important
+}
+/* Change the image size based on screen resolution */
+@media only screen and (max-width: 1800px)
+{
+	label { font-size: 14px }
+	.my-image { max-width:100px!important; max-height:100px!important; }  
+	.my-dummy-image {	max-width:100px!important; max-height:100px!important; }  
+	.my-blink-img {	max-width:100px!important; max-height:100px!important; }  	
+}
+@media only screen and (max-width: 1500px)
+{
+	label { font-size: 12px }
+	.my-image { max-width:70px!important; max-height:70px!important; }  
+	.my-dummy-image {	max-width:70px!important; max-height:70px!important; }
+	.my-blink-img {	max-width:70px!important; max-height:70px!important; }	
+}
+@media only screen and (max-width: 1200px)
+{
+	label { font-size: 10px }
+	.my-image { max-width:40px!important; max-height:40px!important; }  
+	.my-dummy-image {	max-width:40px!important; max-height:40px!important; }    
+	.my-blink-img {	max-width:40px!important; max-height:40px!important; }  	
+}
+@media (max-width: 992px) 
+{
+	label { font-size: 14px }
+	.my-third { width: 100%; }
+	.my-twothird { width: 100%; }
+	.my-image { max-width:150px!important; max-height:150px!important; }  
+	.my-dummy-image {	max-width:150px!important; max-height:150px!important; }  	
+	.my-blink-img {	max-width:150px!important; max-height:150px!important; } 	
+}
+.my-radio 
+{
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 2px; 
+	width: 300px;
+	height: 30px;  
+}
+/* For displaying modal image */
+#myImg 
+{
+  border-radius: 3px;
+  cursor: zoom-in;
+  transition: 0.3s;
+}
+#myImg:hover 
+{
+	opacity: 1.0;
+}
+/* The Modal (background) */
+.my-modal 
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 20px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.my-modal-content 
+{
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Caption of Modal Image */
+#caption 
+{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 950px;
+  text-align: center;
+  /* color: #ccc; */
+  color: cyan;
+  font-weight: bolder;
+  font-weight: 900;
+  font-size: large;
+  padding: 10px 0;
+  height: 50px;
+}
+
+/* The Close Button */
+.close 
+{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,.close:focus 
+{
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px)
+{
+  .modal-content 
+  {
+    width: 100%;
+  }
+  #caption 
+  {
+	width: 100%;  
+  }
+}
+.my-button
+{
+	display: inline-block;
+	border-radius:10%; 
+	width: 220px; 
+	height: 50px;
+	padding: 5px 5px; 
+	text-align: center;
+	vertical-align: middle;
+	font-size: 120%;
+	margin: 2%;
+	position: relative;
+	white-space: normal;
+	word-wrap: break-word;	
+	background: linear-gradient(grey, white);
+	opacity: 1
+}
+#myProgress 
+{
+	width: 50%;
+}
+#myBar 
+{
+	width: 0%;
+	height: 30px;
+	background-color: #04AA6D;
+}
+/*
+.my-small-blue-circle 
+{
+	display: inline-block;
+	border-radius:20%; 
+	width: 120px; 
+	height: 100px;
+	padding: 4px 4px; 
+	text-align: center;
+	vertical-align: middle;
+	font-size: 90%;
+	margin: 5%;
+	position: relative;
+	box-shadow: inset -20px -20px 10px white, 10px 10px 20px white, inset 0px 0px 10px blue, inset 0px 0px 10px blue;
+	white-space: normal;
+	word-wrap: break-word;	
+	background: linear-gradient(grey, white);
+}
+.my-small-pink-circle 
+{
+	display: inline-block;
+	border-radius:40%; 
+	width: 120px; 
+	height: 100px;
+	padding: 4px 4px; 
+	text-align: center;
+	vertical-align: middle;
+	font-size: 90%;
+	margin: 5%;
+	position: relative;
+	box-shadow: inset -20px -20px 10px grey, 10px 10px 20px white, inset 0px 0px 10px red, inset 0px 0px 10px blue;
+	white-space: normal;
+	word-wrap: break-word;		
+	background: linear-gradient(white, white);	
+}
+.my-blue-circle 
+{
+	display: inline-block;
+	border-radius:20%; 
+	width: 140px; 
+	height: 100px;
+	padding: 4px 4px; 
+	text-align: center;
+	vertical-align: middle;
+	font-size: 100%;
+	margin: 5%;
+	position: relative;
+	box-shadow: inset -20px -20px 10px white, 10px 10px 20px white, inset 0px 0px 10px blue, inset 0px 0px 10px blue;
+	white-space: normal;
+	word-wrap: break-word;	
+	background: linear-gradient(grey, white);
+	opacity: 1
+}
+.my-dummy-button
+{
+	display: inline-block;
+	border-radius:20%; 
+	width: 140px; 
+	height: 100px;
+	padding: 4px 4px; 
+	text-align: center;
+	vertical-align: middle;
+	font-size: 100%;
+	margin: 5%;
+	position: relative;
+	box-shadow: inset -20px -20px 10px white, 10px 10px 20px white, inset 0px 0px 10px blue, inset 0px 0px 10px blue;
+	white-space: normal;
+	word-wrap: break-word;	
+	background: linear-gradient(grey, white);
+	opacity: 0.8
+}
+.my-highlight-blue-color 
+{
+	box-shadow: inset -20px -20px 10px yellow, 10px 10px 20px white, inset 0px 0px 10px blue, inset 0px 0px 10px blue!important
+}
+.my-highlight-pink-color 
+{
+	box-shadow: inset -20px -20px 10px yellow, 10px 10px 20px white, inset 0px 0px 10px red, inset 0px 0px 10px blue!important
+}
+.my-pink-circle 
+{
+	display: inline-block;
+	border-radius:40%; 
+	width: 140px; 
+	height: 100px;
+	padding: 4px 4px; 
+	text-align: center;
+	vertical-align: middle;
+	font-size: 100%;
+	margin: 5%;
+	position: relative;
+	box-shadow: inset -20px -20px 10px grey, 10px 10px 20px white, inset 0px 0px 10px red, inset 0px 0px 10px blue;
+	white-space: normal;
+	word-wrap: break-word;		
+	background: linear-gradient(white, white);	
+	opacity: 1
+}
+*/
