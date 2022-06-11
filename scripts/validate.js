@@ -5,8 +5,8 @@ function createTableRow(myRow, highlight)
 	
 	var style = "";
 	var html =  "<tr>\n" +
-				"	<td>" + excelRows[myRow].ID + "</td>\n" +
-				"	<td>" + excelRows[myRow].Name + "</td>\n";
+				"	<td>" + dbRecord[myRow].ID + "</td>\n" +
+				"	<td>" + dbRecord[myRow].Name + "</td>\n";
 				
 	
 	if (highlight == FATHER)
@@ -14,8 +14,8 @@ function createTableRow(myRow, highlight)
 	else
 		style = "";
 	
-	if (excelRows[myRow].Father)
-		html += "	<td " + style + ">" + excelRows[myRow].Father + "</td>\n";
+	if (dbRecord[myRow].Father)
+		html += "	<td " + style + ">" + dbRecord[myRow].Father + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
@@ -24,8 +24,8 @@ function createTableRow(myRow, highlight)
 	else
 		style = "";
 	
-	if (excelRows[myRow].Mother)
-		html += "	<td " + style + ">" + excelRows[myRow].Mother + "</td>\n";
+	if (dbRecord[myRow].Mother)
+		html += "	<td " + style + ">" + dbRecord[myRow].Mother + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
@@ -34,13 +34,13 @@ function createTableRow(myRow, highlight)
 	else
 		style = "";
 	
-	if (excelRows[myRow].Spouse)	
-		html += "	<td " + style + ">" + excelRows[myRow].Spouse + "</td>\n";
+	if (dbRecord[myRow].Spouse)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Spouse + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].Spouse2)	
-		html += "	<td " + style + ">" + excelRows[myRow].Spouse2 + "</td>\n";
+	if (dbRecord[myRow].Spouse2)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Spouse2 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
@@ -49,43 +49,43 @@ function createTableRow(myRow, highlight)
 	else
 		style = "";
 		
-	if (excelRows[myRow].Child1)	
-		html += "	<td " + style + ">" + excelRows[myRow].Child1 + "</td>\n";
+	if (dbRecord[myRow].Child1)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Child1 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].Child2)	
-		html += "	<td " + style + ">" + excelRows[myRow].Child2 + "</td>\n";
+	if (dbRecord[myRow].Child2)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Child2 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].Child3)	
-		html += "	<td " + style + ">" + excelRows[myRow].Child3 + "</td>\n";
+	if (dbRecord[myRow].Child3)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Child3 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].Child4)	
-		html += "	<td " + style + ">" + excelRows[myRow].Child4 + "</td>\n";
+	if (dbRecord[myRow].Child4)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Child4 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].Child5)	
-		html += "	<td " + style + ">" + excelRows[myRow].Child5 + "</td>\n";
+	if (dbRecord[myRow].Child5)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Child5 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].Child6)	
-		html += "	<td " + style + ">" + excelRows[myRow].Child6 + "</td>\n";
+	if (dbRecord[myRow].Child6)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Child6 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].Child7)	
-		html += "	<td " + style + ">" + excelRows[myRow].Child7 + "</td>\n";
+	if (dbRecord[myRow].Child7)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Child7 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].Child8)	
-		html += "	<td " + style + ">" + excelRows[myRow].Child8 + "</td>\n";
+	if (dbRecord[myRow].Child8)	
+		html += "	<td " + style + ">" + dbRecord[myRow].Child8 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 	
@@ -94,73 +94,73 @@ function createTableRow(myRow, highlight)
 	else
 		style = "";
 	
-	if (excelRows[myRow].ElderSib1)	
-		html += "	<td " + style + ">" + excelRows[myRow].ElderSib1 + "</td>\n";
+	if (dbRecord[myRow].ElderSib1)	
+		html += "	<td " + style + ">" + dbRecord[myRow].ElderSib1 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 	
-	if (excelRows[myRow].ElderSib2)	
-		html += "	<td " + style + ">" + excelRows[myRow].ElderSib2 + "</td>\n";
+	if (dbRecord[myRow].ElderSib2)	
+		html += "	<td " + style + ">" + dbRecord[myRow].ElderSib2 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].ElderSib3)	
-		html += "	<td " + style + ">" + excelRows[myRow].ElderSib3 + "</td>\n";
+	if (dbRecord[myRow].ElderSib3)	
+		html += "	<td " + style + ">" + dbRecord[myRow].ElderSib3 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].ElderSib4)	
-		html += "	<td " + style + ">" + excelRows[myRow].ElderSib4 + "</td>\n";
+	if (dbRecord[myRow].ElderSib4)	
+		html += "	<td " + style + ">" + dbRecord[myRow].ElderSib4 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].ElderSib5)	
-		html += "	<td " + style + ">" + excelRows[myRow].ElderSib5 + "</td>\n";
+	if (dbRecord[myRow].ElderSib5)	
+		html += "	<td " + style + ">" + dbRecord[myRow].ElderSib5 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].ElderSib6)	
-		html += "	<td " + style + ">" + excelRows[myRow].ElderSib6 + "</td>\n";
+	if (dbRecord[myRow].ElderSib6)	
+		html += "	<td " + style + ">" + dbRecord[myRow].ElderSib6 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 	
-	if (excelRows[myRow].ElderSib7)	
-		html += "	<td " + style + ">" + excelRows[myRow].ElderSib7 + "</td>\n";
+	if (dbRecord[myRow].ElderSib7)	
+		html += "	<td " + style + ">" + dbRecord[myRow].ElderSib7 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 	
-	if (excelRows[myRow].YoungSib1)	
-		html += "	<td " + style + ">" + excelRows[myRow].YoungSib1 + "</td>\n";
+	if (dbRecord[myRow].YoungSib1)	
+		html += "	<td " + style + ">" + dbRecord[myRow].YoungSib1 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].YoungSib2)	
-		html += "	<td " + style + ">" + excelRows[myRow].YoungSib2 + "</td>\n";
+	if (dbRecord[myRow].YoungSib2)	
+		html += "	<td " + style + ">" + dbRecord[myRow].YoungSib2 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].YoungSib3)	
-		html += "	<td " + style + ">" + excelRows[myRow].YoungSib3 + "</td>\n";
+	if (dbRecord[myRow].YoungSib3)	
+		html += "	<td " + style + ">" + dbRecord[myRow].YoungSib3 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].YoungSib4)	
-		html += "	<td " + style + ">" + excelRows[myRow].YoungSib4 + "</td>\n";
+	if (dbRecord[myRow].YoungSib4)	
+		html += "	<td " + style + ">" + dbRecord[myRow].YoungSib4 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].YoungSib5)	
-		html += "	<td " + style + ">" + excelRows[myRow].YoungSib5 + "</td>\n";
+	if (dbRecord[myRow].YoungSib5)	
+		html += "	<td " + style + ">" + dbRecord[myRow].YoungSib5 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].YoungSib6)	
-		html += "	<td " + style + ">" + excelRows[myRow].YoungSib6 + "</td>\n";
+	if (dbRecord[myRow].YoungSib6)	
+		html += "	<td " + style + ">" + dbRecord[myRow].YoungSib6 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 
-	if (excelRows[myRow].YoungSib7)	
-		html += "	<td " + style + ">" + excelRows[myRow].YoungSib7 + "</td>\n";
+	if (dbRecord[myRow].YoungSib7)	
+		html += "	<td " + style + ">" + dbRecord[myRow].YoungSib7 + "</td>\n";
 	else
 		html +=	"	<td " + style + "></td>\n";
 	
@@ -177,47 +177,47 @@ function validateSpouse(myRow)
 	
 	var log = "";
 	
-	if (excelRows[myRow].Spouse == undefined && excelRows[myRow].Spouse2)
+	if (dbRecord[myRow].Spouse == undefined && dbRecord[myRow].Spouse2)
 	{
 		log += createTableRow(myRow, SPOUSE);
 		console.error(myRow + ": **TEST1-1: Row " + myRow + " spouse is not set, but spouse2 is set. Wrong!!\n");
 	}
-	else if (excelRows[myRow].Spouse && excelRows[myRow].Spouse2 == undefined)
+	else if (dbRecord[myRow].Spouse && dbRecord[myRow].Spouse2 == undefined)
 	{
-		var sp = excelRows[myRow].Spouse;			
-		if (excelRows[sp].Spouse == undefined)
+		var sp = dbRecord[myRow].Spouse;			
+		if (dbRecord[sp].Spouse == undefined)
 		{
 			console.error(myRow + ": TEST1-2: Row " + sp + "'s spouse is not set. Should it be set to " + myRow + "?\n");
 			log += createTableRow(myRow, SPOUSE);
 		}
-		else if (myRow != excelRows[sp].Spouse)
+		else if (myRow != dbRecord[sp].Spouse)
 		{
 			console.error("TEST1-3: " + myRow + ": Spouse of row " + myRow + " is not same as the spouse of row " + sp + "\n");
 			log += createTableRow(myRow, SPOUSE);
 		}
 	}			
-	else if (excelRows[myRow].Spouse && excelRows[myRow].Spouse2)
+	else if (dbRecord[myRow].Spouse && dbRecord[myRow].Spouse2)
 	{
-		var s1 = excelRows[myRow].Spouse;
-		var s2 = excelRows[myRow].Spouse2;
+		var s1 = dbRecord[myRow].Spouse;
+		var s2 = dbRecord[myRow].Spouse2;
 
-		if (excelRows[s1].Spouse == undefined || excelRows[s1].Spouse2 == undefined)
+		if (dbRecord[s1].Spouse == undefined || dbRecord[s1].Spouse2 == undefined)
 		{
 			console.error(myRow + ": TEST1-4: Spouses of row " + s1 + " is not complete\n");
 			log += createTableRow(myRow, SPOUSE);
 		}
-		else if (excelRows[s1].Spouse != myRow && excelRows[s1].Spouse2 != myRow)
+		else if (dbRecord[s1].Spouse != myRow && dbRecord[s1].Spouse2 != myRow)
 		{
 			console.error(myRow + ": TEST1-5: Spouses of row " + s1 + " is wrong\n");
 			log += createTableRow(myRow, SPOUSE);
 		}
 
-		if (excelRows[s2].Spouse == undefined || excelRows[s2].Spouse2 == undefined)
+		if (dbRecord[s2].Spouse == undefined || dbRecord[s2].Spouse2 == undefined)
 		{
 			console.error(myRow + ": TEST1-6: Spouses of row " + s2 + " is not complete\n");	
 			log += createTableRow(myRow, SPOUSE);
 		}
-		else if (excelRows[s2].Spouse != myRow && excelRows[s2].Spouse2 != myRow)
+		else if (dbRecord[s2].Spouse != myRow && dbRecord[s2].Spouse2 != myRow)
 		{
 			console.error(myRow + ": TEST1-7: Spouses of row " + s2 + " is wrong\n");	
 			log += createTableRow(myRow, SPOUSE);
@@ -235,14 +235,14 @@ function validateSpousesChildren(myRow)
 		return "";
 	
 	var html = "";
-	var s1 = excelRows[myRow].Spouse;
-	var s2 = excelRows[myRow].Spouse2;
+	var s1 = dbRecord[myRow].Spouse;
+	var s2 = dbRecord[myRow].Spouse2;
 	
 	var husband = [];
 	var wife1 = [];
 	var wife2 = [];
 	
-	if (excelRows[myRow].Gender == "Male")
+	if (dbRecord[myRow].Gender == "Male")
 	{
 		childrenList(myRow, husband);
 		childrenList(s1, wife1);
@@ -280,6 +280,20 @@ function validateSpousesChildren(myRow)
 				break;
 			}
 		}
+
+		if (husband.length == wife1.length)
+		{
+			var match = true;	
+			for (let j = 0; match && j < wife1.length; j++)
+				if (husband[j] != wife1[j])
+					match = false;	
+				
+			if (!match)
+			{
+				console.error(myRow + ": TEST2-3: Children are not same as spouse(s) row\n");
+				html += createTableRow(myRow, CHILDREN);
+			}				
+		}
 	}
 	return html;
 }
@@ -294,9 +308,9 @@ function validateParentsChildren(myRow)
 	
 	for (let i = 0; i < children.length; i++)
 	{
-		if (excelRows[myRow].Gender == "Male")
+		if (dbRecord[myRow].Gender == "Male")
 		{
-			if (excelRows[children[i]].Father != myRow)
+			if (dbRecord[children[i]].Father != myRow)
 			{
 				console.error(myRow + ": TEST3-1: Row " + children[i] + "'s Father is wrong\n");
 				html += createTableRow(myRow, CHILDREN);
@@ -305,7 +319,7 @@ function validateParentsChildren(myRow)
 		}
 		else
 		{
-			if (excelRows[children[i]].Mother != myRow)
+			if (dbRecord[children[i]].Mother != myRow)
 			{
 				console.error(myRow + ": TEST3-2: Row " + children[i] + "'s Mother is wrong\n");
 				html += createTableRow(myRow, CHILDREN);
@@ -314,10 +328,10 @@ function validateParentsChildren(myRow)
 		}
 	}
 	
-	if (excelRows[myRow].Father)
+	if (dbRecord[myRow].Father)
 	{
 		var fathers = [];
-		childrenList(excelRows[myRow].Father, fathers);
+		childrenList(dbRecord[myRow].Father, fathers);
 		var found = false;
 		
 		for (let i = 0; !found && i < fathers.length; i++)
@@ -331,10 +345,10 @@ function validateParentsChildren(myRow)
 		}
 	}
 	
-	if (excelRows[myRow].Mother)
+	if (dbRecord[myRow].Mother)
 	{
 		var mothers = [];
-		childrenList(excelRows[myRow].Mother, mothers);
+		childrenList(dbRecord[myRow].Mother, mothers);
 		var found = false;
 		
 		for (let i = 0; !found && i < mothers.length; i++)
@@ -417,12 +431,12 @@ function validateSiblings2(myRow)
 	if (myRow == undefined)
 		return "";
 
-	if (excelRows[myRow].Mother == undefined)
+	if (dbRecord[myRow].Mother == undefined)
 		return "";
 	
 	var html = "";
 	var mothersChildren = [];
-	childrenList(excelRows[myRow].Mother, mothersChildren)
+	childrenList(dbRecord[myRow].Mother, mothersChildren)
 
 	var myElder = [];
 	var myYounger = [];
@@ -451,43 +465,122 @@ function validateSiblings2(myRow)
 	}
 	return html;
 }
+function validateSiblingsOrder(myRow)
+{
+	if (myRow == undefined)
+		return "";
+	
+	/* If father has two spouses, this test can't be done */
+	father = dbRecord[myRow].Father;
+	if (father && dbRecord[father].Spouse && dbRecord[father].Spouse2)
+		return "";
+
+	var html = "";
+	var mothersChildren = [];
+	childrenList(dbRecord[myRow].Mother, mothersChildren)
+
+	var mySiblings = [];
+	allSiblingsList(myRow, mySiblings);
+	
+	if (mothersChildren.length == mySiblings.length)
+	{
+		for (let i = 0; i < mothersChildren.length; i++)
+		{
+			//console.log("mothersChildren[" + i + "] = " + mothersChildren[i] + " mySiblings[" + i + "] = " + mySiblings[i]);
+			if (mothersChildren[i] != mySiblings[i])
+			{
+				console.error("TEST6-1: " + myRow + "'s sibling order is not right\n");
+				html += createTableRow(myRow, SIBLINGS);
+				break;
+			}
+		}
+	}
+	
+	for (let i = 0; i < mySiblings.length; i++)
+	{
+		if (mySiblings[i] == myRow)
+			continue;
+		
+		//console.log("\n*****myRow = " 	+ myRow + " mySiblings[" + i + "] = " + mySiblings[i] + "\n");
+		var siblings = [];
+		allSiblingsList(mySiblings[i], siblings);
+		
+		if (mySiblings.length != siblings.length)
+		{
+			console.error("TEST6-2: " + myRow + "'s sibling is not matching with " + mySiblings[i] + "\n");
+			html += createTableRow(myRow, SIBLINGS);
+		}
+		
+		var match = true;
+		for (let j = 0; match && j < mySiblings.length; j++)
+		{
+			//console.log("myRow = " + myRow + " mySiblings[" + j + "] = " + mySiblings[j] + " siblings[" + j + "] = " + siblings[j]);
+			if (mySiblings[j] != siblings[j])
+				match = false;
+		}
+			
+		if (!match)
+		{
+			console.error("TEST6-3: " + myRow + "'s sibling is not matching with " + mySiblings[i] + "\n");
+			html += createTableRow(myRow, SIBLINGS);			
+		}
+	}
+	return html;
+}
 function validateGender(myRow)
 {
 	var html = "";
 	
-	if (excelRows[myRow].Father)
+	if (dbRecord[myRow].Father)
 	{
-		var father = excelRows[myRow].Father;
-		if (excelRows[father].Gender != "Male")
+		var father = dbRecord[myRow].Father;
+		if (dbRecord[father].Gender != "Male")
 		{
 			console.error("TEST6-1: " + myRow + "'s father's gender is wrong\n");
 			html += createTableRow(myRow, FATHER);
 		}
 	}
-	if (excelRows[myRow].Mother)
+	if (dbRecord[myRow].Mother)
 	{
-		var mother = excelRows[myRow].Mother;
-		if (excelRows[mother].Gender != "Female")
+		var mother = dbRecord[myRow].Mother;
+		if (dbRecord[mother].Gender != "Female")
 		{
 			console.error("TEST6-2: " + myRow + "'s mother's gender is wrong\n");
 			html += createTableRow(myRow, MOTHER);
 		}
 	}
 	
-	var spouse = excelRows[myRow].Spouse;
-	if (spouse && excelRows[myRow].Gender == excelRows[spouse].Gender)
+	var spouse = dbRecord[myRow].Spouse;
+	if (spouse && dbRecord[myRow].Gender == dbRecord[spouse].Gender)
 	{
 		console.error("TEST6-3: Row " + myRow + "'s gender is same as the spouse\n");
 		html += createTableRow(myRow, SPOUSE);
 	}
 	
-	spouse2 = excelRows[myRow].Spouse2;
-	if (spouse2 && excelRows[myRow].Gender != "Male" && excelRows[spouse].Gender == excelRows[spouse2].Gender)
+	spouse2 = dbRecord[myRow].Spouse2;
+	if (spouse2 && dbRecord[myRow].Gender != "Male" && dbRecord[spouse].Gender == dbRecord[spouse2].Gender)
 	{
 		console.error("TEST6-4: Row " + myRow + "'s gender is same as the spouse\n");
 		html += createTableRow(myRow, SPOUSE);
 	}
 	return html;
+}
+function validatePhoto(index)
+{
+    var fname = index.toString();
+    while (fname.length < 4) 
+		fname = "0" + fname;
+    
+	fname = "photos/" + fname + ".jpg";
+	
+    var img = new Image();
+    img.src = fname;
+
+	img.onload = function() 
+	{
+		if (img.width != img.height)
+			console.log("Image " + fname + " is not square")			
+	};
 }
 function validate()
 {
@@ -498,17 +591,16 @@ function validate()
 	 * Remaining 70% is for validating the data.
 	 */
 	var progress = 30;
-	var addp = 70/excelRows.length; /* Amount to be added for each iteration */
+	var addp = 70/dbRecord.length; /* Amount to be added for each iteration */
 	var count = 0;
 	
-	for (let index = 0; index < excelRows.length; index++)
+	for (let index = 0; index < dbRecord.length; index++)
 	{
-		if (excelRows[index].Name == undefined)
+		if (dbRecord[index].Name == undefined)
 			continue;
 		
 		progress += addp;
 		myBar.style.width = Math.round(progress) + "%";
-		
 		
 		errLog += validateSpouse(index);
 		errLog += validateSpousesChildren(index);
@@ -516,7 +608,13 @@ function validate()
 		errLog += validateSiblings1(index);
 		errLog += validateSiblings2(index);
 		errLog += validateGender(index);
-		
+		errLog += validateSiblingsOrder(index);
+
+		//validatePhoto(index);
+
+		if (dbRecord[index].ID != index)
+			console.error("Index " + index + " and Id " + dbRecord[index].ID + " are not matching..");		
+
 		count++;
 	}
 
@@ -562,5 +660,6 @@ function validate()
 
 		table.innerHTML = html + errLog;
 	}
+	
 	return count;
 }

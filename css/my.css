@@ -15,130 +15,53 @@ a:active,a:hover {outline-width:0 }
 img { border-style:none }
 footer { display: block }
 
-.my-sand,.my-hover-sand:hover
-{
-	color:#000!important;
-	background-color:#fdf5e6!important
-}
-.my-teal,.my-hover-teal:hover
-{
-	color:#fff!important;
-	background-color:#009688!important
-}
-.my-light-grey,.my-hover-light-grey:hover
-{
-	color:#000!important;
-	background-color:#f1f1f1!important
-}
-.my-text-teal,.my-hover-text-teal:hover
-{
-	color:#009688!important
-}
-.my-text-grey,.my-hover-text-grey:hover
-{
-	color:#757575!important
-}
-.my-white
-{
-	color:#000!important;
-	background-color:#fff!important
-}
-.my-text-blue
-{
-	color:#2196F3!important
-}
-.my-text-deep-purple
-{
-	color:#673ab7!important
-}
-.my-text-deep-orange
-{
-	color:#ff5722!important
-}
-.my-center
-{
-	text-align:center!important
-}
-.my-margin-top
-{
-	margin-top:16px!important
-}
-.my-margin-bottom
-{
-	margin-bottom:16px!important
-}
-.my-margin-left
-{
-	margin-left:16px!important
-}
-.my-margin-right
-{
-	margin-right:16px!important
-}
-.my-left
-{
-	float:left!important
-}
-.my-right
-{
-	float:right!important
-}
-.my-display-container
-{
-	position:relative
-}
-.my-card-2
-{
-	box-shadow:0 2px 5px 1px rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
-}
-.my-card-4
-{
-	box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
-}
-.my-shadow
-{
-	box-shadow:0 6px 10px 2px black, 0 4px 20px 0 rgba(0,0,0,0.19)
-}
-.my-tiny
-{
-	font-size:10px!important
-}
-.my-small
-{
-	font-size:12px!important
-}
-.my-medium
-{
-	font-size:15px!important
-}
-.my-large
-{
-	font-size:16px!important
-}
-.my-xlarge
-{
-	font-size:24px!important
-}
-.my-xxlarge
-{
-	font-size:36px!important
-}
-.my-xxxlarge
-{
-	font-size:48px!important
-}
-.my-jumbo
-{
-	font-size:64px!important
-}
-.my-twelveth,.my-eighth,.my-seventh,.my-sixth,.my-fifth,.my-quarter,.my-third,.my-half,.my-twothird,.my-threequarter,.my-fullwidth
-{
-	float:left;
-	width:100%
-}
+.my-sand,.my-hover-sand:hover {	color:#000!important; background-color:#fdf5e6!important }
+.my-teal,.my-hover-teal:hover {	color:#fff!important; background-color:#009688!important }
+.my-light-grey,.my-hover-light-grey:hover {	color:#000!important; background-color:#f1f1f1!important }
+.my-text-teal,.my-hover-text-teal:hover { color:#009688!important }
+.my-text-grey,.my-hover-text-grey:hover { color:#757575!important }
+.my-white { color:#000!important; background-color:#fff!important }
+.my-text-blue {	color:#2196F3!important }
+.my-text-deep-purple { color:#673ab7!important }
+.my-text-deep-orange { color:#ff5722!important }
+
+.my-center { text-align:center!important }
+.my-margin-top { margin-top:16px!important }
+.my-margin-bottom {	margin-bottom:16px!important }
+.my-margin-left { margin-left:16px!important }
+.my-margin-right { margin-right:16px!important }
+.my-left { float:left!important }
+.my-right {	float:right!important }
+
+.my-display-container { position:relative }
+.my-card-2 { box-shadow:0 2px 5px 1px rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) }
+.my-card-4 { box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19) }
+.my-shadow { box-shadow:0 6px 10px 2px black, 0 4px 20px 0 rgba(0,0,0,0.19) }
+
+.my-tiny { font-size:10px!important }
+.my-small {	font-size:12px!important }
+.my-medium { font-size:15px!important }
+.my-large { font-size:16px!important }
+.my-xlarge { font-size:24px!important }
+.my-xxlarge { font-size:36px!important }
+.my-xxxlarge { font-size:48px!important }
+.my-jumbo {	font-size:64px!important }
+
+.my-twenty,.my-nineteen,.my-eighteen,.my-seventeen,.my-sixteen,.my-fifteen,.my-fourteen,.my-thirteen,.my-twelve,.my-eleven,.my-tenth,.my-ninth,.my-eighth,.my-seventh,.my-sixth,.my-fifth,.my-quarter,.my-third,.my-half,.my-twothird,.my-threequarter,.my-fullwidth { float:left; width:100% }
 @media (min-width:601px)
 {
-	.my-twelveth { width:8.3333333% }
+	.my-twenty { width:5% }
+	.my-nineteen { width:5.2632% }
+	.my-eighteen { width:5.5555% }	
+	.my-seventeen { width:5.8823% }
+	.my-sixteen { width:6.25% }
+	.my-fifteen { width:6.6666% }
+	.my-fourteen { width:7.1428% }
+	.my-thirteen { width:7.6923% }
+	.my-twelve { width:8.3333333% }
+	.my-eleven { width:9.0909% }	
+	.my-tenth { width:10% }	
+	.my-ninth { width:11.1111% }	
 	.my-eighth { width:12.5% }
 	.my-seventh { width:14.28% }	
 	.my-sixth { width:16.66666%	}
@@ -159,110 +82,113 @@ footer { display: block }
 .my-row-padding > .my-sixth, 
 .my-row-padding > .my-seventh,
 .my-row-padding > .my-eighth,
-.my-row-padding > .my-twelveth,
+.my-row-padding > .my-ninth,
+.my-row-padding > .my-tenth,
+.my-row-padding > .my-eleven,
+.my-row-padding > .my-twelve,
+.my-row-padding > .my-thirteen,
+.my-row-padding > .my-fourteen,
+.my-row-padding > .my-fifteen,
+.my-row-padding > .my-sixteen,
+.my-row-padding > .my-seventeen,
+.my-row-padding > .my-eighteen,
+.my-row-padding > .my-nineteen,
+.my-row-padding > .my-twenty,
 .my-row-padding > .my-fullwidth
 {
-	padding:0 8px
+	/* padding:0 8px; */
+	padding:0 4px	
 }
-.my-container:after,.my-container:before,.my-row-padding:after,.my-row-padding:before
-{
-	content:"";
-	display: table;
-	clear:both
-}
-.my-container
-{
-	padding:0.01em 16px
-}
-label 
-{ 
-	font-size: 14px 
-}
-.my-image,.my-dummy-image
+.my-container:after,.my-container:before,.my-row-padding:after,.my-row-padding:before {	content:"";	display: table;	clear:both }
+.my-container {	/* padding:0.01em 16px; */	padding:0.01em 8px }
+.my-image 
 {
 	border-radius: 50%;
 	width:100%;
-	max-width:130px;
-	max-height:130px;
+	max-width:140px;
+	max-height:140px;
 	cursor: pointer;
 	vertical-align: middle;
-	border:2px solid black;
+	border: 3px solid black;
 	/* border: 5px double black; */
 	padding: 2px 2px;
 }
- .my-image-highlight
+/*
+.my-image-highlight { border-radius: 10%!important; border: 5px double red!important }
+.my-image-highlight-black { border-radius: 10%!important; border: 5px double black!important }
+.my-image-highlight-green { border-radius: 10%!important; border: 5px double green!important }
+.my-image-highlight-blue { border-radius: 10%!important; border: 5px double blue!important }
+.my-image-highlight-orange { border-radius: 10%!important; border: 5px double orange!important }
+.my-image-highlight-purple { border-radius: 10%!important; border: 5px double purple!important }
+.my-image-highlight-aqua { border-radius: 10%!important; border: 5px double aqua!important }
+.my-image-highlight-lime { border-radius: 10%!important; border: 5px double lime!important }
+.my-image-highlight-yellow { border-radius: 10%!important; border: 5px double yellow!important }
+.my-image-highlight-teal { border-radius: 10%!important; border: 5px double teal!important }
+*/
+.my-image-highlight { border-radius: 10%!important}
+.my-image-highlight-red { border: 5px double red!important }
+.my-image-highlight-black { border: 5px double black!important }
+.my-image-highlight-green { border: 5px double green!important }
+.my-image-highlight-blue { border: 5px double blue!important }
+.my-image-highlight-orange { border: 5px double orange!important }
+.my-image-highlight-purple { border: 5px double purple!important }
+.my-image-highlight-aqua { border: 5px double aqua!important }
+.my-image-highlight-lime { border: 5px double lime!important }
+.my-image-highlight-yellow { border: 5px double yellow!important }
+.my-image-highlight-teal { border: 5px double teal!important }
+
+.my-image:hover { opacity: 0.8; }
+.my-dummy-image,.my-dummy-image:hover {	cursor: default; opacity: 0.0 }
+.my-dummy-text { opacity: 0.0 }
+@media (hover: none) and (pointer: coarse) 
 {
-	border-radius: 10%!important;
-	border: 5px double red!important
- }
-.my-image:hover 
-{
-	opacity: 0.8;
-}
-.my-dummy-image,.my-dummy-image-hover:hover
-{
-	cursor: default;
-	opacity: 0.0
-}
-.my-dummy-text
-{
-	opacity: 0.0
+    /* Smartphones and touchscreens */
+	.my-dummy-image,.my-dummy-text { opacity: 0.0 }
 }
 @-webkit-keyframes blink 
 {
-    0% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.8;
-    }
-    50% {
-        opacity: 0.6;
-    }
-    75% {
-        opacity: 0.4;
-    }	
-    100% {
-        opacity: 0.3;
-    }
+	/* opacity: 1; */
+	0% { border-radius: 50%;  }
+    10% { border-radius: 40%; }	
+    20% { border-radius: 30%; }
+    30% { border-radius: 20%; }
+    40% { border-radius: 10%; }	
+    50% { border-radius: 2%; }
+	60% { border-radius: 10%; }	
+    70% { border-radius: 20%; }
+	80% { border-radius: 30%; }
+	90% { border-radius: 40%;  }	
+    100% { border-radius: 50%; }
 }
 @-moz-keyframes blink 
-{
-    0% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.8;
-    }
-    50% {
-        opacity: 0.6;
-    }
-    75% {
-        opacity: 0.4;
-    }	
-    100% {
-        opacity: 0.3;
-    }
+{  
+	0% { border-radius: 50%;  }
+    10% { border-radius: 40%; }	
+    20% { border-radius: 30%; }
+    30% { border-radius: 20%; }
+    40% { border-radius: 10%; }	
+    50% { border-radius: 2%; }
+	60% { border-radius: 10%; }	
+    70% { border-radius: 20%; }
+	80% { border-radius: 30%; }
+	90% { border-radius: 40%;  }	
+    100% { border-radius: 50%; }
 }
 @-o-keyframes blink 
-{
-    0% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0.8;
-    }
-    50% {
-        opacity: 0.6;
-    }
-    75% {
-        opacity: 0.4;
-    }
-    100% {
-        opacity: 0.3;
-    }
+{    
+	0% { border-radius: 50%;  }
+    10% { border-radius: 40%; }	
+    20% { border-radius: 30%; }
+    30% { border-radius: 20%; }
+    40% { border-radius: 10%; }	
+    50% { border-radius: 2%; }
+	60% { border-radius: 10%; }	
+    70% { border-radius: 20%; }
+	80% { border-radius: 30%; }
+	90% { border-radius: 40%;  }	
+    100% { border-radius: 50%; }
 }
-.my-blink-img 
+.my-blink-img
 {
     -webkit-animation: blink 1s;
     -webkit-animation-iteration-count: infinite;
@@ -272,43 +198,187 @@ label
     -o-animation-iteration-count: infinite;
 	border-radius: 10%;
 	width:100%;
-	max-width:130px;
-	max-height:130px;
-	cursor: pointer;
+	cursor: zoom-in; 
 	vertical-align: middle;
 	padding: 2px 2px;
-	border: 5px double red!important
 }
+
+.my-blink-img-red {	border: 5px double red!important }
+.my-blink-img-black { border: 5px double black!important }
+.my-blink-img-green { border: 5px double green!important }
+.my-blink-img-blue { border: 5px double blue!important }
+.my-blink-img-orange { border: 5px double orange!important }
+.my-blink-img-purple { border: 5px double purple!important }
+.my-blink-img-aqua { border: 5px double aqua!important }
+.my-blink-img-lime { border: 5px double lime!important }
+.my-blink-img-yellow { border: 5px double yellow!important }
+.my-blink-img-teal { border: 5px double teal!important }
+
+.my-label-size-medium { font-size: 14px }
+.my-label-size-full { font-size: 14px }
+.my-image-size-medium {	max-width:140px; max-height:140px; }
+.my-image-size-full { max-width:140px; max-height:140px; }
+.my-blink-img-size-medium {	max-width:140px; max-height:140px; }
+.my-blink-img-size-full { max-width:140px; max-height:140px; }
 /* Change the image size based on screen resolution */
+@media only screen and (max-width: 3600px)
+{
+	.my-label-size-full { font-size: 14px }	
+	.my-image-size-full { max-width:130px!important; max-height:130px!important; }	
+	.my-blink-img-size-full { max-width:130px!important; max-height:130px!important; }  		
+}
+@media only screen and (max-width: 3000px)
+{
+	.my-label-size-full { font-size: 13px }	
+	.my-image-size-full { max-width:120px!important; max-height:120px!important; }	
+	.my-blink-img-size-full { max-width:120px!important; max-height:120px!important; }  		
+}
+@media only screen and (max-width: 2400px)
+{
+	.my-label-size-full { font-size: 12px }	
+	.my-image-size-full { max-width:110px!important; max-height:110px!important; }	
+	.my-blink-img-size-full { max-width:110px!important; max-height:110px!important; }  		
+}
 @media only screen and (max-width: 1800px)
 {
-	label { font-size: 14px }
-	.my-image { max-width:100px!important; max-height:100px!important; }  
-	.my-dummy-image {	max-width:100px!important; max-height:100px!important; }  
-	.my-blink-img {	max-width:100px!important; max-height:100px!important; }  	
+	.my-label-size-medium { font-size: 14px }
+	.my-image-size-medium { max-width:120px!important; max-height:120px!important; }  
+	.my-blink-img-size-medium {	max-width:120px!important; max-height:120px!important; }  
+	
+	.my-label-size-full { font-size: 11px }		
+	.my-image-size-full { max-width:100px!important; max-height:100px!important; }	
+	.my-blink-img-size-full { max-width:100px!important; max-height:100px!important; }  		
 }
 @media only screen and (max-width: 1500px)
 {
-	label { font-size: 12px }
-	.my-image { max-width:70px!important; max-height:70px!important; }  
-	.my-dummy-image {	max-width:70px!important; max-height:70px!important; }
-	.my-blink-img {	max-width:70px!important; max-height:70px!important; }	
+	.my-label-size-medium { font-size: 13px }
+	.my-image-size-medium { max-width:100px!important; max-height:100px!important; }  
+	.my-blink-img-size-medium {	max-width:100px!important; max-height:100px!important; }
+
+	.my-label-size-full { font-size: 10px }		
+	.my-image-size-full { max-width:80px!important; max-height:80px!important; }		
+	.my-blink-img-size-full { max-width:80px!important; max-height:80px!important; }		
 }
 @media only screen and (max-width: 1200px)
 {
-	label { font-size: 10px }
-	.my-image { max-width:40px!important; max-height:40px!important; }  
-	.my-dummy-image {	max-width:40px!important; max-height:40px!important; }    
-	.my-blink-img {	max-width:40px!important; max-height:40px!important; }  	
+	.my-label-size-medium { font-size: 12px }
+	.my-image-size-medium { max-width:80px!important; max-height:80px!important; }  
+	.my-blink-img-size-medium {	max-width:80px!important; max-height:80px!important; }
+	.my-blink-img { border: 3px solid red!important }
+	.my-image-highlight { border: 3px solid red!important }	
+	.my-image-highlight-red { border: 3px solid red!important }
+	.my-image-highlight-black { border: 3px solid black!important }
+	.my-image-highlight-green { border: 3px solid green!important }
+	.my-image-highlight-blue { border: 3px solid blue!important }
+	.my-image-highlight-orange { border: 3px solid orange!important }
+	.my-image-highlight-purple { border: 3px solid purple!important }
+	.my-image-highlight-aqua { border: 3px solid aqua!important }
+	.my-image-highlight-lime { border: 3px solid lime!important }
+	.my-image-highlight-yellow { border: 3px solid yellow!important }
+	.my-image-highlight-teal { border: 3px solid teal!important }
+	
+	.my-label-size-full { font-size: 9px }		
+	.my-image-size-full { max-width:70px!important; max-height:70px!important; }	
+	.my-blink-img-size-full { max-width:70px!important; max-height:70px!important; }
+	.my-blink-img-red {	border: 3px solid red!important }
+	.my-blink-img-black { border: 3px solid black!important }
+	.my-blink-img-green { border: 3px solid green!important }
+	.my-blink-img-blue { border: 3px solid blue!important }
+	.my-blink-img-orange { border: 3px solid orange!important }
+	.my-blink-img-purple { border: 3px solid purple!important }
+	.my-blink-img-aqua { border: 3px solid aqua!important }
+	.my-blink-img-lime { border: 3px solid lime!important }
+	.my-blink-img-yellow { border: 3px solid yellow!important }
+	.my-blink-img-teal { border: 3px solid teal!important }	
 }
-@media (max-width: 992px) 
+@media only screen and (max-width: 1000px)
 {
-	label { font-size: 14px }
+	.my-label-size-medium { font-size: 10px }
+	.my-image-size-medium { max-width:70px!important; max-height:70px!important; border:1px solid black; }  
+	.my-blink-img-size-medium {	max-width:70px!important; max-height:70px!important; border:1px solid black; }	
+	.my-blink-img { border: 2px solid red!important }
+	.my-image-highlight { border: 2px solid red!important }	
+	.my-image-highlight { border: 2px solid red!important }
+	.my-image-highlight-red { border: 2px solid red!important }
+	.my-image-highlight-black { border: 2px solid black!important }
+	.my-image-highlight-green { border: 2px solid green!important }
+	.my-image-highlight-blue { border: 2px solid blue!important }
+	.my-image-highlight-orange { border: 2px solid orange!important }
+	.my-image-highlight-purple { border: 2px solid purple!important }
+	.my-image-highlight-aqua { border: 2px solid aqua!important }
+	.my-image-highlight-lime { border: 2px solid lime!important }
+	.my-image-highlight-yellow { border: 2px solid yellow!important }
+	.my-image-highlight-teal { border: 2px solid teal!important }	
+	
+	.my-label-size-full { font-size: 7px }		
+	.my-image-size-full { max-width:50px!important; max-height:50px!important; border:1px solid black;}	
+	.my-blink-img-size-full { max-width:50px!important; max-height:50px!important; border:1px solid black; }	
+	.my-blink-img-red {	border: 2px solid red!important }
+	.my-blink-img-black { border: 2px solid black!important }
+	.my-blink-img-green { border: 2px solid green!important }
+	.my-blink-img-blue { border: 2px solid blue!important }
+	.my-blink-img-orange { border: 2px solid orange!important }
+	.my-blink-img-purple { border: 2px solid purple!important }
+	.my-blink-img-aqua { border: 2px solid aqua!important }
+	.my-blink-img-lime { border: 2px solid lime!important }
+	.my-blink-img-yellow { border: 2px solid yellow!important }
+	.my-blink-img-teal { border: 2px solid teal!important }		
+}
+@media only screen and (max-width: 800px)
+{
+	.my-label-size-medium { font-size: 9px }
+	.my-image-size-medium { max-width:50px!important; max-height:50px!important; border:1px solid black; }  
+	.my-blink-img-size-medium {	max-width:50px!important; max-height:50px!important; border:1px solid black; }	
+	.my-blink-img { border: 2px solid red!important }	
+	.my-image-highlight { border: 2px solid red!important }
+	.my-image-highlight-red { border: 2px solid red!important }
+	.my-image-highlight-black { border: 2px solid black!important }
+	.my-image-highlight-green { border: 2px solid green!important }
+	.my-image-highlight-blue { border: 2px solid blue!important }
+	.my-image-highlight-orange { border: 2px solid orange!important }
+	.my-image-highlight-purple { border: 2px solid purple!important }
+	.my-image-highlight-aqua { border: 2px solid aqua!important }
+	.my-image-highlight-lime { border: 2px solid lime!important }
+	.my-image-highlight-yellow { border: 2px solid yellow!important }
+	.my-image-highlight-teal { border: 2px solid teal!important }	
+	
+	.my-label-size-full { font-size: 6px }			
+	.my-image-size-full { max-width:40px!important; max-height:40px!important; border:1px solid black;}	
+	.my-blink-img-size-full { max-width:40px!important; max-height:40px!important; border:1px solid black;}	
+	.my-blink-img-red {	border: 2px solid red!important }
+	.my-blink-img-black { border: 2px solid black!important }
+	.my-blink-img-green { border: 2px solid green!important }
+	.my-blink-img-blue { border: 2px solid blue!important }
+	.my-blink-img-orange { border: 2px solid orange!important }
+	.my-blink-img-purple { border: 2px solid purple!important }
+	.my-blink-img-aqua { border: 2px solid aqua!important }
+	.my-blink-img-lime { border: 2px solid lime!important }
+	.my-blink-img-yellow { border: 2px solid yellow!important }
+	.my-blink-img-teal { border: 2px solid teal!important }	
+}
+@media (max-width: 600px) 
+{
 	.my-third { width: 100%; }
 	.my-twothird { width: 100%; }
-	.my-image { max-width:150px!important; max-height:150px!important; }  
-	.my-dummy-image {	max-width:150px!important; max-height:150px!important; }  	
-	.my-blink-img {	max-width:150px!important; max-height:150px!important; } 	
+	.my-label-size-medium { font-size: 14px }
+	.my-image-size-medium { max-width:140px!important; max-height:140px!important; border:2px solid black; }  
+	.my-blink-img-size-medium {	max-width:140px!important; max-height:140px!important; border:2px solid black; } 
+	.my-blink-img { border: 5px double red!important }	
+	
+	.my-label-size-full { font-size: 14px }		
+	.my-image-size-full { max-width:140px!important; max-height:140px!important; border:2px solid black; }  
+	.my-blink-img-size-full { max-width:140px!important; max-height:140px!important; border:2px solid black; }
+	.my-image-highlight { border: 5px double red!important }	
+	.my-image-highlight-red { border: 5px double red!important }
+	.my-image-highlight-black { border: 5px double black!important }
+	.my-image-highlight-green { border: 5px double green!important }
+	.my-image-highlight-blue { border: 5px double blue!important }
+	.my-image-highlight-orange { border: 5px double orange!important }
+	.my-image-highlight-purple { border: 5px double purple!important }
+	.my-image-highlight-aqua { border: 5px double aqua!important }
+	.my-image-highlight-lime { border: 5px double lime!important }
+	.my-image-highlight-yellow { border: 5px double yellow!important }
+	.my-image-highlight-teal { border: 5px double teal!important }	
 }
 .my-radio 
 {
@@ -344,7 +414,6 @@ label
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
 }
-
 /* Modal Content (image) */
 .my-modal-content 
 {
@@ -352,8 +421,16 @@ label
   display: block;
   width: 100%;
   max-width: 1000px;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+ /* border: 1px solid #888;   */
 }
-
+/* Center the image and position the close button */
+.my-modal-img-container 
+{
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
 /* Caption of Modal Image */
 #caption 
 {
@@ -385,7 +462,7 @@ label
 
 .close:hover,.close:focus 
 {
-  color: #bbb;
+  color: red;
   text-decoration: none;
   cursor: pointer;
 }
@@ -401,6 +478,19 @@ label
 	width: 100%;  
   }
 }
+/* Add Zoom Animation */
+.my-animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
 .my-button
 {
 	display: inline-block;
@@ -414,7 +504,7 @@ label
 	margin: 2%;
 	position: relative;
 	white-space: normal;
-	word-wrap: break-word;	
+	word-wrap: break-word;
 	background: linear-gradient(grey, white);
 	opacity: 1
 }
