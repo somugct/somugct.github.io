@@ -128,7 +128,7 @@ function initializeTree()
 	
 	setGlobal()
 	dbRecord = jsonData;
-	loadPerson(0);
+	loadPerson(42);
 }
 
 function getRandomInt(max) 

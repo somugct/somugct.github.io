@@ -2,7 +2,7 @@ var jsonData = [
   {
     "ID": "0",
     "Name": "Shivani S",
-    "TamilName": "சிவானி S",
+    "TamilName": "சிவானி.S",
     "Nickname": "Shinini",
     "Gender": "Female",
     "Father": "2",
@@ -19,7 +19,7 @@ var jsonData = [
   {
     "ID": "1",
     "Name": "Arul S",
-    "TamilName": "அருள் S",
+    "TamilName": "அருள்.S",
     "Nickname": "Arul",
     "Gender": "Male",
     "Father": "2",
@@ -36,7 +36,7 @@ var jsonData = [
   {
     "ID": "2",
     "Name": "Somasundaram K",
-    "TamilName": "சோமசுந்தரம் K ",
+    "TamilName": "சோமசுந்தரம்.K ",
     "Nickname": "Somu",
     "Gender": "Male",
     "Father": "7",
@@ -59,7 +59,7 @@ var jsonData = [
   {
     "ID": "3",
     "Name": "Pavithra R",
-    "TamilName": "பவித்ரா R",
+    "TamilName": "பவித்ரா.R",
     "Nickname": "Pavi",
     "Gender": "Female",
     "Father": "5",
@@ -80,7 +80,7 @@ var jsonData = [
   {
     "ID": "4",
     "Name": "Bangajam R",
-    "TamilName": "பங்கஜம் R",
+    "TamilName": "பங்கஜம்.R",
     "Nickname": "Bangi",
     "Gender": "Female",
     "Father": "29",
@@ -99,7 +99,7 @@ var jsonData = [
   {
     "ID": "5",
     "Name": "Rajamani V",
-    "TamilName": "ராஜாமணி V",
+    "TamilName": "ராஜாமணி.V",
     "Nickname": "Rajamani",
     "Gender": "Male",
     "Father": "34",
@@ -117,7 +117,7 @@ var jsonData = [
   {
     "ID": "6",
     "Name": "Kannamani K",
-    "TamilName": "கண்ணாமணி K",
+    "TamilName": "கண்ணாமணி.K",
     "Nickname": "Kannamani",
     "Gender": "Female",
     "Father": "38",
@@ -136,7 +136,7 @@ var jsonData = [
   {
     "ID": "7",
     "Name": "Krishnasamy K",
-    "TamilName": "கிருஷ்ணசாமி கவுண்டர் K",
+    "TamilName": "கிருஷ்ணசாமிகவுண்டர்.K",
     "Nickname": "KKK",
     "Gender": "Male",
     "Father": "42",
@@ -158,7 +158,7 @@ var jsonData = [
   {
     "ID": "8",
     "Name": "Mohanraj R",
-    "TamilName": "மோகன்ராஜ் R ",
+    "TamilName": "மோகன்ராஜ்.R ",
     "Nickname": "Mohan",
     "Gender": "Male",
     "Father": "5",
@@ -173,7 +173,7 @@ var jsonData = [
   {
     "ID": "9",
     "Name": "Sindhu R",
-    "TamilName": "சிந்து R",
+    "TamilName": "சிந்து.R",
     "Nickname": "Pooja",
     "Gender": "Female",
     "Father": "48",
@@ -187,7 +187,7 @@ var jsonData = [
   {
     "ID": "10",
     "Name": "Sai Laya M",
-    "TamilName": "சாய்லயா M",
+    "TamilName": "சாய்லயா.M",
     "Nickname": "Laya",
     "Gender": "Female",
     "Father": "8",
@@ -199,7 +199,7 @@ var jsonData = [
   {
     "ID": "11",
     "Name": "Sakthivel K",
-    "TamilName": "சக்திவேல் K",
+    "TamilName": "சக்திவேல்.K",
     "Nickname": "Sakthi",
     "Gender": "Male",
     "Father": "7",
@@ -217,7 +217,7 @@ var jsonData = [
   {
     "ID": "12",
     "Name": "Deeparani S",
-    "TamilName": "தீபாராணி S",
+    "TamilName": "தீபாராணி.S",
     "Nickname": "Deepa",
     "Gender": "Female",
     "Father": "24",
@@ -234,7 +234,7 @@ var jsonData = [
   {
     "ID": "13",
     "Name": "Amrutha S",
-    "TamilName": "அம்ருதா S",
+    "TamilName": "அம்ருதா.S",
     "Nickname": "Ammu",
     "Gender": "Female",
     "Father": "11",
@@ -249,7 +249,7 @@ var jsonData = [
   {
     "ID": "14",
     "Name": "Kumuthaveni S",
-    "TamilName": "குமுதவேணி S",
+    "TamilName": "குமுதவேணி.S",
     "Nickname": "Veni",
     "Gender": "Female",
     "Father": "7",
@@ -266,7 +266,7 @@ var jsonData = [
   {
     "ID": "15",
     "Name": "Shanmugasundaram K",
-    "TamilName": "சண்முகசுந்தரம் K",
+    "TamilName": "சண்முகசுந்தரம்.K",
     "Nickname": "Shanmugam",
     "Gender": "Male",
     "Father": "18",
@@ -282,7 +282,7 @@ var jsonData = [
   {
     "ID": "16",
     "Name": "Hemavarshini S",
-    "TamilName": "ஹேமவர்ஷினி S",
+    "TamilName": "ஹேமவர்ஷினி.S",
     "Nickname": "Hema",
     "Gender": "Female",
     "Father": "15",
@@ -296,7 +296,7 @@ var jsonData = [
   {
     "ID": "17",
     "Name": "Abinandhan S",
-    "TamilName": "அபிநந்தன் S",
+    "TamilName": "அபிநந்தன்.S",
     "Nickname": "Abi",
     "Gender": "Male",
     "Father": "15",
@@ -311,7 +311,7 @@ var jsonData = [
   {
     "ID": "18",
     "Name": "Kalimuthu Gr",
-    "TamilName": "காளிமுத்து கவுண்டர்",
+    "TamilName": "காளிமுத்துகவுண்டர்",
     "Nickname": "Kalimuthu Gr",
     "Gender": "Male",
     "Spouse": "19",
@@ -335,7 +335,7 @@ var jsonData = [
   {
     "ID": "20",
     "Name": "Thenmozhi K",
-    "TamilName": "தேன்மொழி K",
+    "TamilName": "தேன்மொழி.K",
     "Nickname": "Thenmozhi",
     "Gender": "Female",
     "Father": "18",
@@ -350,7 +350,7 @@ var jsonData = [
   {
     "ID": "21",
     "Name": "Rathinasamy Gounder",
-    "TamilName": "ரத்தினசாமி கவுண்டர்",
+    "TamilName": "ரத்தினசாமிகவுண்டர்",
     "Nickname": "Thenmozhi Husband",
     "Gender": "Male",
     "Spouse": "20",
@@ -387,7 +387,7 @@ var jsonData = [
   {
     "ID": "24",
     "Name": "Ponnusamy Gr",
-    "TamilName": "பொன்னுச்சாமி கவுண்டர் ",
+    "TamilName": "பொன்னுச்சாமிகவுண்டர் ",
     "Nickname": "Ponnusamy Gr",
     "Gender": "Male",
     "Father": "849",
@@ -460,7 +460,7 @@ var jsonData = [
   {
     "ID": "29",
     "Name": "Thirumalaisamy Gr",
-    "TamilName": "திருமலைசாமி கவுண்டர் ",
+    "TamilName": "திருமலைசாமிகவுண்டர் ",
     "Nickname": "Thirumalaisamy Gr",
     "Gender": "Male",
     "Father": "208",
@@ -616,7 +616,7 @@ var jsonData = [
   {
     "ID": "38",
     "Name": "Palanisamy Gr",
-    "TamilName": "பழனிசாமி கவுண்டர் ",
+    "TamilName": "பழனிசாமிகவுண்டர் ",
     "Nickname": "Palanisamy Gr",
     "Gender": "Male",
     "Father": "1010",
@@ -677,7 +677,7 @@ var jsonData = [
   {
     "ID": "42",
     "Name": "Kuppusamy Gr",
-    "TamilName": "குப்புசாமி கவுண்டர் ",
+    "TamilName": "குப்புசாமிகவுண்டர் ",
     "Nickname": "Kuppusamy Gr",
     "Gender": "Male",
     "Father": "636",
@@ -734,7 +734,7 @@ var jsonData = [
   {
     "ID": "45",
     "Name": "Nataraj Gr",
-    "TamilName": "நடராஜ் கவுண்டர் ",
+    "TamilName": "நடராஜ்கவுண்டர்",
     "Nickname": "Nataraj Gr",
     "Gender": "Male",
     "Father": "42",
@@ -848,7 +848,7 @@ var jsonData = [
   {
     "ID": "52",
     "Name": "Mylsamy Gr",
-    "TamilName": "மயில்சாமி கவுண்டர் ",
+    "TamilName": "மயில்சாமிகவுண்டர் ",
     "Nickname": "Mylsamy Gr",
     "Gender": "Male",
     "Father": "50",
@@ -882,7 +882,7 @@ var jsonData = [
   {
     "ID": "54",
     "Name": "Karuppusamy Gr",
-    "TamilName": "கருப்பசாமி கவுண்டர் ",
+    "TamilName": "கருப்பசாமிகவுண்டர் ",
     "Nickname": "Karuppusamy Gr",
     "Gender": "Male",
     "Father": "50",
@@ -926,7 +926,7 @@ var jsonData = [
   {
     "ID": "57",
     "Name": "Govindasamy Gr",
-    "TamilName": "கோவிந்தசாமி கவுண்டர் ",
+    "TamilName": "கோவிந்தசாமிகவுண்டர் ",
     "Nickname": "Govindasamy Gr",
     "Gender": "Male",
     "Father": "58",
@@ -941,7 +941,7 @@ var jsonData = [
   {
     "ID": "58",
     "Name": "Velusamy Gr",
-    "TamilName": "வேலுசாமி கவுண்டர்",
+    "TamilName": "வேலுசாமிகவுண்டர்",
     "Nickname": "Velusamy Gr",
     "Gender": "Male",
     "Father": "212",
@@ -980,7 +980,7 @@ var jsonData = [
   {
     "ID": "61",
     "Name": "Myilsamy",
-    "TamilName": "மயில்சாமி கவுண்டர் ",
+    "TamilName": "மயில்சாமிகவுண்டர் ",
     "Nickname": "Myilsamy",
     "Gender": "Male",
     "Father": "60",
@@ -1152,7 +1152,7 @@ var jsonData = [
   },
   {
     "ID": "75",
-    "Name": "Arun Kannan",
+    "Name": "ArunKannan",
     "TamilName": "அருண்கண்ணன்",
     "Nickname": "Arun Kannan",
     "Gender": "Male",
@@ -1311,7 +1311,7 @@ var jsonData = [
   {
     "ID": "87",
     "Name": "Palanisamy Gounder",
-    "TamilName": "பழனிசாமி கவுண்டர்",
+    "TamilName": "பழனிசாமிகவுண்டர்",
     "Nickname": "Appuchi",
     "Gender": "Male",
     "Spouse": "86",
@@ -1342,7 +1342,7 @@ var jsonData = [
   {
     "ID": "89",
     "Name": "Krishnasamy Gounder",
-    "TamilName": "கிருஷ்ணசாமி கவுண்டர்",
+    "TamilName": "கிருஷ்ணசாமிகவுண்டர்",
     "Nickname": "Perp",
     "Gender": "Male",
     "Spouse": "88",
@@ -1534,7 +1534,7 @@ var jsonData = [
   {
     "ID": "105",
     "Name": "Thirumalaisamy",
-    "TamilName": "திருமலைசாமி கவுண்டர் ",
+    "TamilName": "திருமலைசாமிகவுண்டர் ",
     "Nickname": "Mulanoor appar",
     "Gender": "Male",
     "Father": "205",
@@ -1605,7 +1605,7 @@ var jsonData = [
   {
     "ID": "111",
     "Name": "Velusamy Gounder",
-    "TamilName": "வேலுச்சாமி கவுண்டர்",
+    "TamilName": "வேலுச்சாமிகவுண்டர்",
     "Nickname": "Vel appar",
     "Gender": "Male",
     "Father": "205",
@@ -1898,7 +1898,7 @@ var jsonData = [
   {
     "ID": "135",
     "Name": "Kittusamy Gounder",
-    "TamilName": "கிட்டுசாமி கவுண்டர்",
+    "TamilName": "கிட்டுசாமிகவுண்டர்",
     "Nickname": "Kittappar",
     "Gender": "Male",
     "Father": "205",
@@ -1979,7 +1979,7 @@ var jsonData = [
   {
     "ID": "142",
     "Name": "Chinnusamy Gounder",
-    "TamilName": "சின்னுசாமி கவுண்டர்",
+    "TamilName": "சின்னுசாமிகவுண்டர்",
     "Nickname": "Nadu appuchi",
     "Gender": "Male",
     "Father": "208",
@@ -2148,7 +2148,7 @@ var jsonData = [
   {
     "ID": "156",
     "Name": "Velusamy Gounder",
-    "TamilName": "வேலுச்சாமி கவுண்டர்",
+    "TamilName": "வேலுச்சாமிகவுண்டர்",
     "Nickname": "China appuchi",
     "Gender": "Male",
     "Father": "208",
@@ -2164,8 +2164,8 @@ var jsonData = [
   },
   {
     "ID": "157",
-    "Name": "Renuka devi",
-    "TamilName": "ரேணுகா தேவி",
+    "Name": "Renukadevi",
+    "TamilName": "ரேணுகாதேவி",
     "Nickname": "Renuka devi",
     "Gender": "Female",
     "Father": "156",
@@ -2192,7 +2192,7 @@ var jsonData = [
   },
   {
     "ID": "159",
-    "Name": "Hema Priya",
+    "Name": "HemaPriya",
     "TamilName": "ஹேமபிரியா ",
     "Nickname": "Hema Priya",
     "Gender": "Female",
@@ -2240,7 +2240,7 @@ var jsonData = [
   },
   {
     "ID": "163",
-    "Name": "Suresh Kumar",
+    "Name": "SureshKumar",
     "TamilName": "சுரேஷ்குமார்",
     "Nickname": "Suresh Kumar",
     "Gender": "Male",
@@ -2290,7 +2290,7 @@ var jsonData = [
   },
   {
     "ID": "167",
-    "Name": "Meghala Devi",
+    "Name": "MeghalaDevi",
     "TamilName": "மேகலாதேவி",
     "Nickname": "Meghala Devi",
     "Gender": "Female",
@@ -2500,8 +2500,8 @@ var jsonData = [
   },
   {
     "ID": "185",
-    "Name": "Krishnasamy Gounder",
-    "TamilName": "கிருஷ்ணசாமி கவுண்டர்",
+    "Name": "KrishnasamyGounder",
+    "TamilName": "கிருஷ்ணசாமிகவுண்டர்",
     "Nickname": "Thippambatti apuchi ",
     "Gender": "Male",
     "Spouse": "53",
@@ -2715,8 +2715,8 @@ var jsonData = [
   },
   {
     "ID": "203",
-    "Name": "Athai",
-    "TamilName": "Athai",
+    "Name": "Jeya",
+    "TamilName": "ஜெயா ",
     "Nickname": "Athai",
     "Gender": "Female",
     "Spouse": "202",
@@ -2911,7 +2911,7 @@ var jsonData = [
   {
     "ID": "220",
     "Name": "Kanagaraaj Gounder",
-    "TamilName": "கனகராஜ் கவுண்டர்",
+    "TamilName": "கனகராஜ்கவுண்டர்",
     "Nickname": "Kanagaraaj Gounder",
     "Gender": "Male",
     "Spouse": "221",
@@ -3085,7 +3085,7 @@ var jsonData = [
   {
     "ID": "235",
     "Name": "Kuppusamy Gounder",
-    "TamilName": "குப்புசாமி கவுண்டர்",
+    "TamilName": "குப்புசாமிகவுண்டர்",
     "Nickname": "Kuppusamy",
     "Gender": "Male",
     "Spouse": "236",
@@ -3105,7 +3105,7 @@ var jsonData = [
   {
     "ID": "237",
     "Name": "Velusamy Gounder",
-    "TamilName": "வேலுசாமி கவுண்டர்",
+    "TamilName": "வேலுசாமிகவுண்டர்",
     "Nickname": "Velusamy Gounder",
     "Gender": "Male",
     "Spouse": "238",
@@ -3180,7 +3180,7 @@ var jsonData = [
   {
     "ID": "242",
     "Name": "Nachimuthu Gounder",
-    "TamilName": "நாச்சிமுத்து கவுண்டர்",
+    "TamilName": "நாச்சிமுத்துகவுண்டர்",
     "Nickname": "Nachimuthu Gounder",
     "Gender": "Male",
     "Spouse": "239",
@@ -3672,7 +3672,7 @@ var jsonData = [
   {
     "ID": "286",
     "Name": "Thirumalaisamy Gounder",
-    "TamilName": "திருமலைசாமி கவுண்டர்",
+    "TamilName": "திருமலைசாமிகவுண்டர்",
     "Nickname": "Valarmathi’s Dad",
     "Gender": "Male",
     "Spouse": "287",
@@ -3941,7 +3941,7 @@ var jsonData = [
   {
     "ID": "307",
     "Name": "Nachimuthu Gounder",
-    "TamilName": "நாச்சிமுத்து கவுண்டர்",
+    "TamilName": "நாச்சிமுத்துகவுண்டர்",
     "Nickname": "Vedhanayagam Husband",
     "Gender": "Male",
     "Spouse": "306",
@@ -4325,7 +4325,7 @@ var jsonData = [
   {
     "ID": "339",
     "Name": "Thirumalaisamy Gounder",
-    "TamilName": "திருமலைசாமி கவுண்டர்",
+    "TamilName": "திருமலைசாமிகவுண்டர்",
     "Nickname": "Thirumalaisamy Gounder",
     "Gender": "Male",
     "Spouse": "338",
@@ -4712,7 +4712,7 @@ var jsonData = [
   {
     "ID": "372",
     "Name": "Mylsamy Gounder",
-    "TamilName": "மயில்சாமி கவுண்டர்",
+    "TamilName": "மயில்சாமிகவுண்டர்",
     "Nickname": "Mylsamy Gounder",
     "Gender": "Male",
     "Father": "359",
@@ -4752,7 +4752,7 @@ var jsonData = [
   {
     "ID": "375",
     "Name": "Palanisamy Gounder",
-    "TamilName": "பழனிசாமி கவுண்டர்",
+    "TamilName": "பழனிசாமிகவுண்டர்",
     "Nickname": "Palanisamy Gounder",
     "Gender": "Male",
     "Spouse": "374",
@@ -4806,7 +4806,7 @@ var jsonData = [
   {
     "ID": "380",
     "Name": "Azhagu Thanvanthika",
-    "TamilName": "அழகு தன்வந்திகா",
+    "TamilName": "அழகுதன்வந்திகா",
     "Nickname": "Azhaguthanvanthika",
     "Gender": "Female",
     "Father": "196",
@@ -4816,7 +4816,7 @@ var jsonData = [
   {
     "ID": "381",
     "Name": "Aarusamy Gounder",
-    "TamilName": "ஆறுச்சாமி கவுண்டர்",
+    "TamilName": "ஆறுச்சாமிகவுண்டர்",
     "Nickname": "Mysoor appachi",
     "Gender": "Male",
     "Spouse": "382",
@@ -4901,7 +4901,7 @@ var jsonData = [
   {
     "ID": "389",
     "Name": "Vignesh",
-    "TamilName": "Vignesh",
+    "TamilName": "விக்னேஷ் ",
     "Nickname": "Vignesh",
     "Gender": "Male",
     "Father": "387",
@@ -4911,9 +4911,9 @@ var jsonData = [
   },
   {
     "ID": "390",
-    "Name": "Visahan",
-    "TamilName": "Visahan",
-    "Nickname": "Visahan",
+    "Name": "Visakan",
+    "TamilName": "விசாகன் ",
+    "Nickname": "Visakan",
     "Gender": "Male",
     "Father": "79",
     "Mother": "78",
@@ -4947,7 +4947,7 @@ var jsonData = [
   {
     "ID": "397",
     "Name": "Thirumalaisamy Gounder",
-    "TamilName": "திருமலைசாமி கவுண்டர்",
+    "TamilName": "திருமலைசாமிகவுண்டர்",
     "Nickname": "Thirumalaisamy Gounder",
     "Gender": "Male",
     "Occupation": "Farmer"
@@ -5668,8 +5668,8 @@ var jsonData = [
   },
   {
     "ID": "534",
-    "Name": "Husband",
-    "TamilName": "Husband",
+    "Name": "Aravind",
+    "TamilName": "அரவிந்த் ",
     "Nickname": "Soumya-Husband",
     "Gender": "Male",
     "Spouse": "533",
@@ -5679,8 +5679,8 @@ var jsonData = [
   },
   {
     "ID": "535",
-    "Name": "Son",
-    "TamilName": "Son",
+    "Name": "Yatvik",
+    "TamilName": "யாத்விக் ",
     "Nickname": "Soumya-kid",
     "Gender": "Male",
     "Father": "534",
@@ -5704,8 +5704,8 @@ var jsonData = [
   },
   {
     "ID": "537",
-    "Name": "Sukanya Husband",
-    "TamilName": "Husband",
+    "Name": "Aravindkumar",
+    "TamilName": "அரவிந்த்குமார் ",
     "Nickname": "Sukanya-Husband",
     "Gender": "Male",
     "Spouse": "536",
@@ -5715,8 +5715,8 @@ var jsonData = [
   },
   {
     "ID": "538",
-    "Name": "Daughter",
-    "TamilName": "Daughter",
+    "Name": "Lidhanya",
+    "TamilName": "லிதன்யா ",
     "Nickname": "Sukanya-Kid",
     "Gender": "Female",
     "Father": "537",
@@ -5727,7 +5727,7 @@ var jsonData = [
   {
     "ID": "539",
     "Name": "Selvi",
-    "TamilName": "Selvi",
+    "TamilName": "செல்வி ",
     "Nickname": "Senthil-Wife",
     "Gender": "Female",
     "Spouse": "530",
@@ -5760,8 +5760,8 @@ var jsonData = [
   },
   {
     "ID": "542",
-    "Name": "Madhu",
-    "TamilName": "மது",
+    "Name": "MadhudhanuSree",
+    "TamilName": "மதுதனுஸ்ரீ ",
     "Nickname": "Balamani-kid1",
     "Gender": "Female",
     "Father": "541",
@@ -5772,8 +5772,8 @@ var jsonData = [
   },
   {
     "ID": "543",
-    "Name": "Avi",
-    "TamilName": "அவி",
+    "Name": "Abivarshini",
+    "TamilName": "அபிவர்ஷினி ",
     "Nickname": "Balamani-kid2",
     "Gender": "Female",
     "Father": "541",
@@ -6123,7 +6123,7 @@ var jsonData = [
   {
     "ID": "570",
     "Name": "Dhanvika",
-    "TamilName": "Dhanvika",
+    "TamilName": "தன்விகா ",
     "Nickname": "Devarai daugther",
     "Gender": "Female",
     "Father": "568",
@@ -6313,7 +6313,7 @@ var jsonData = [
   {
     "ID": "583",
     "Name": "Kamalakannan Kumaraguru",
-    "TamilName": "கமலக்கண்ணன் குமரகுரு",
+    "TamilName": "கமலக்கண்ணன்குமரகுரு",
     "Nickname": "Kamalakannan Kumaraguru",
     "Gender": "Male",
     "Father": "575",
@@ -6427,7 +6427,7 @@ var jsonData = [
   {
     "ID": "592",
     "Name": "Chinnamani Gr",
-    "TamilName": "சின்னமணி கவுண்டர் ",
+    "TamilName": "சின்னமணிகவுண்டர் ",
     "Nickname": "Chinnamani Gr",
     "Gender": "Male",
     "Father": "572",
@@ -6484,7 +6484,7 @@ var jsonData = [
   {
     "ID": "596",
     "Name": "Rathinasabapathy",
-    "TamilName": "Rathinasabapathy",
+    "TamilName": "ரத்தினசபாபதி  ",
     "Nickname": "Rathinasabapathy",
     "Gender": "Male",
     "Spouse": "595",
@@ -6494,7 +6494,7 @@ var jsonData = [
   {
     "ID": "597",
     "Name": "Dineshkumar",
-    "TamilName": "Dineshkumar",
+    "TamilName": "தினேஷ்குமார் ",
     "Nickname": "Dineshkumar",
     "Gender": "Male",
     "Father": "596",
@@ -6549,7 +6549,7 @@ var jsonData = [
   {
     "ID": "602",
     "Name": "Maariyamma ",
-    "TamilName": "Maariyamma ",
+    "TamilName": "மாரியம்மா ",
     "Nickname": "Malaiyappa Gr Wife1",
     "Gender": "Female",
     "Spouse": "572",
@@ -6581,7 +6581,7 @@ var jsonData = [
   {
     "ID": "605",
     "Name": "Thangavel Gounder",
-    "TamilName": "தங்கவேல் கவுண்டர் ",
+    "TamilName": "தங்கவேல்கவுண்டர் ",
     "Nickname": "Thangavel Gounder",
     "Gender": "Male",
     "Spouse": "606",
@@ -6720,7 +6720,7 @@ var jsonData = [
   {
     "ID": "616",
     "Name": "Thiruvenkidam Ramanujam",
-    "TamilName": "திருவேங்கிடம் ராமானுஜம்",
+    "TamilName": "திருவேங்கிடம்ராமானுஜம்",
     "Nickname": "Thiruvenkidam Ramanujam",
     "Gender": "Male",
     "Spouse": "608",
@@ -6749,7 +6749,7 @@ var jsonData = [
   {
     "ID": "619",
     "Name": "Nataraj Gounder",
-    "TamilName": "நடராஜ் கவுண்டர் ",
+    "TamilName": "நடராஜ்கவுண்டர் ",
     "Nickname": "Nataraj Gounder",
     "Gender": "Male",
     "Father": "1196",
@@ -6832,7 +6832,7 @@ var jsonData = [
   {
     "ID": "625",
     "Name": "Thangavel Gounder",
-    "TamilName": "தங்கவேல் கவுண்டர் ",
+    "TamilName": "தங்கவேல்கவுண்டர் ",
     "Nickname": "Thangavel Gounder",
     "Gender": "Male",
     "Father": "1192",
@@ -6911,7 +6911,7 @@ var jsonData = [
   {
     "ID": "631",
     "Name": "Vellaiyammal",
-    "TamilName": "Vellaiyammal",
+    "TamilName": "வெள்ளையம்மாள் ",
     "Nickname": "Mooththa Gounder wife",
     "Gender": "Female",
     "Spouse": "630",
@@ -6922,8 +6922,8 @@ var jsonData = [
   },
   {
     "ID": "632",
-    "Name": "Ramasamy Gounder",
-    "TamilName": "ராமசாமி கவுண்டர் ",
+    "Name": "RamasamyGounder",
+    "TamilName": "ராமசாமிகவுண்டர் ",
     "Nickname": "Ramasamy Gounder",
     "Gender": "Male",
     "Father": "630",
@@ -6938,7 +6938,7 @@ var jsonData = [
   {
     "ID": "633",
     "Name": "Selvamani",
-    "TamilName": "Selvamani",
+    "TamilName": "செல்வமணி",
     "Nickname": "Ramasamy Gounder Wife",
     "Gender": "Female",
     "Spouse": "632",
@@ -6949,8 +6949,8 @@ var jsonData = [
   },
   {
     "ID": "634",
-    "Name": "Kandasamy Gounder",
-    "TamilName": "கந்தசாமி கவுண்டர் ",
+    "Name": "KandasamyGounder",
+    "TamilName": "கந்தசாமிகவுண்டர் ",
     "Nickname": "Kandasamy Gounder",
     "Gender": "Male",
     "Father": "630",
@@ -6968,7 +6968,7 @@ var jsonData = [
   {
     "ID": "635",
     "Name": "Palanaathaal",
-    "TamilName": "Palanaathaal",
+    "TamilName": "பலனாதாள்  ",
     "Nickname": "Kandasamy Gounder Wife",
     "Gender": "Female",
     "Spouse": "634",
@@ -6982,7 +6982,7 @@ var jsonData = [
   },
   {
     "ID": "636",
-    "Name": "Subae Gounder",
+    "Name": "SubaeGounder",
     "TamilName": "சுப்பேகவுண்டர்",
     "Nickname": "Subae Gounder",
     "Gender": "Male",
@@ -7034,7 +7034,7 @@ var jsonData = [
   },
   {
     "ID": "640",
-    "Name": "Kandiyappa Gounder",
+    "Name": "KandiyappaGounder",
     "TamilName": "கண்டியப்பகவுண்டர் ",
     "Nickname": "Kandiyappa Gounder",
     "Gender": "Male",
@@ -7053,7 +7053,7 @@ var jsonData = [
   {
     "ID": "641",
     "Name": "Sellathaal ",
-    "TamilName": "Sellathaal ",
+    "TamilName": "செல்லாதாள் ",
     "Nickname": "Sellamma",
     "Gender": "Female",
     "Spouse": "640",
@@ -7064,7 +7064,7 @@ var jsonData = [
   },
   {
     "ID": "642",
-    "Name": "Nanjappa Gounder",
+    "Name": "NanjappaGounder",
     "TamilName": "நஞ்சப்பகவுண்டர் ",
     "Nickname": "Nanjappa Gounder",
     "Gender": "Male",
@@ -7082,7 +7082,7 @@ var jsonData = [
   {
     "ID": "643",
     "Name": "Ponnaathaal ",
-    "TamilName": "Ponnaathaal ",
+    "TamilName": "பொன்னாத்தாள்",
     "Nickname": "Nanjappa Gounder Wife",
     "Gender": "Female",
     "Spouse": "642",
@@ -7092,7 +7092,7 @@ var jsonData = [
   },
   {
     "ID": "644",
-    "Name": "Kaaliappa Gounder",
+    "Name": "KaaliappaGounder",
     "TamilName": "காளியப்பகவுண்டர் ",
     "Nickname": "Kaaliappa Gounder",
     "Gender": "Male",
@@ -7117,7 +7117,7 @@ var jsonData = [
   {
     "ID": "646",
     "Name": "Nachimuthu",
-    "TamilName": "நாச்சிமுத்து கவுண்டர்  ",
+    "TamilName": "நாச்சிமுத்துகவுண்டர்  ",
     "Nickname": "Nachimuthu",
     "Gender": "Male",
     "Father": "642",
@@ -7146,8 +7146,8 @@ var jsonData = [
   },
   {
     "ID": "650",
-    "Name": "Palanisamy Gounder",
-    "TamilName": "பழனிசாமி கவுண்டர்",
+    "Name": "PalanisamyGounder",
+    "TamilName": "பழனிசாமிகவுண்டர்",
     "Nickname": "Palanisamy Gounder",
     "Gender": "Male",
     "Father": "644",
@@ -7342,7 +7342,7 @@ var jsonData = [
   },
   {
     "ID": "667",
-    "Name": "Subae Gounder",
+    "Name": "SubaeGounder",
     "TamilName": "சுப்பேகவுண்டர்",
     "Nickname": "Subae Gounder",
     "Gender": "Male",
@@ -7378,8 +7378,8 @@ var jsonData = [
   },
   {
     "ID": "669",
-    "Name": "Muthusamy Gr",
-    "TamilName": "முத்துசாமி கவுண்டர் ",
+    "Name": "MuthusamyGr",
+    "TamilName": "முத்துசாமிகவுண்டர் ",
     "Nickname": "Muthusamy Gr",
     "Gender": "Male",
     "Father": "667",
@@ -7423,8 +7423,8 @@ var jsonData = [
   },
   {
     "ID": "672",
-    "Name": "Krishnasamy Gr",
-    "TamilName": "கிருஷ்ணசாமி கவுண்டர்",
+    "Name": "KrishnasamyGr",
+    "TamilName": "கிருஷ்ணசாமிகவுண்டர்",
     "Nickname": "Krishnasamy Gr",
     "Gender": "Male",
     "Father": "667",
@@ -7439,7 +7439,7 @@ var jsonData = [
   {
     "ID": "673",
     "Name": "Naachathaal",
-    "TamilName": "Naachathaal",
+    "TamilName": "நாச்சாத்தாள் ",
     "Nickname": "Subae Gr D1",
     "Gender": "Female",
     "Father": "667",
@@ -7454,8 +7454,8 @@ var jsonData = [
   },
   {
     "ID": "674",
-    "Name": "Nataraj Gounder",
-    "TamilName": "நடராஜ் கவுண்டர்",
+    "Name": "NatarajGounder",
+    "TamilName": "நடராஜ்கவுண்டர்",
     "Nickname": "Subae Gr D1 Husband",
     "Gender": "Male",
     "Spouse": "673",
@@ -7465,7 +7465,7 @@ var jsonData = [
   {
     "ID": "675",
     "Name": "Muthukanna",
-    "TamilName": "Muthukanna",
+    "TamilName": "முத்துக்கண்ணா ",
     "Nickname": "Subae Gr D2",
     "Gender": "Female",
     "Father": "667",
@@ -7491,7 +7491,7 @@ var jsonData = [
   {
     "ID": "677",
     "Name": "Kamalaathaal",
-    "TamilName": "Kamalaathaal",
+    "TamilName": "கமலாதாள் ",
     "Nickname": "Subae Gr D3",
     "Gender": "Female",
     "Father": "667",
@@ -7598,7 +7598,7 @@ var jsonData = [
   {
     "ID": "685",
     "Name": "Amudhan Subbaiya",
-    "TamilName": "அமுதன் சுப்பையா ",
+    "TamilName": "அமுதன்சுப்பையா ",
     "Nickname": "ParuvathaKannan s1",
     "Gender": "Male",
     "Father": "683",
@@ -7610,7 +7610,7 @@ var jsonData = [
   {
     "ID": "686",
     "Name": "Akilan Subbaiya",
-    "TamilName": "அகிலன் சுப்பையா ",
+    "TamilName": "அகிலன்சுப்பையா ",
     "Nickname": "ParuvathaKannan s2",
     "Gender": "Male",
     "Father": "683",
@@ -7649,7 +7649,7 @@ var jsonData = [
   {
     "ID": "689",
     "Name": "Ramasamy Gounder",
-    "TamilName": "ராமசாமி கவுண்டர் ",
+    "TamilName": "ராமசாமிகவுண்டர் ",
     "Nickname": "Ramasamy Gounder",
     "Gender": "Male",
     "Father": "640",
@@ -7667,7 +7667,7 @@ var jsonData = [
   {
     "ID": "690",
     "Name": "Vellaiyamma",
-    "TamilName": "Vellaiyamma",
+    "TamilName": "வெள்ளையம்மாள்",
     "Nickname": "Ramasamy Gounder Wife",
     "Gender": "Female",
     "Spouse": "689",
@@ -7679,7 +7679,7 @@ var jsonData = [
   {
     "ID": "691",
     "Name": "Aarusamy Gounder",
-    "TamilName": "ஆறுச்சாமி கவுண்டர் ",
+    "TamilName": "ஆறுச்சாமிகவுண்டர் ",
     "Nickname": "Aarusamy Gounder",
     "Gender": "Male",
     "Father": "640",
@@ -7697,7 +7697,7 @@ var jsonData = [
   {
     "ID": "692",
     "Name": "Paakiyammaal",
-    "TamilName": "Paakiyammaal",
+    "TamilName": "பாக்கியம்மாள்  ",
     "Nickname": "Aarusamy Gounder Wife",
     "Gender": "Female",
     "Spouse": "691",
@@ -7726,7 +7726,7 @@ var jsonData = [
   {
     "ID": "694",
     "Name": "Mayilaathal",
-    "TamilName": "Mayilaathal",
+    "TamilName": "மயிலாத்தாள் ",
     "Nickname": "Masaiyappa Gounder Wife",
     "Gender": "Female",
     "Spouse": "693",
@@ -7753,7 +7753,7 @@ var jsonData = [
   {
     "ID": "696",
     "Name": "Mani ",
-    "TamilName": "Mani",
+    "TamilName": "மணி ",
     "Nickname": "Mahalingam Wife",
     "Gender": "Female",
     "Spouse": "695",
@@ -7799,7 +7799,7 @@ var jsonData = [
   {
     "ID": "700",
     "Name": "Kannan",
-    "TamilName": "Kannan",
+    "TamilName": "கண்ணன் ",
     "Nickname": "Maragatham Husband",
     "Gender": "Male",
     "Spouse": "699",
@@ -7875,7 +7875,7 @@ var jsonData = [
   {
     "ID": "707",
     "Name": "Nataraj Gr",
-    "TamilName": "நடராஜ் கவுண்டர் ",
+    "TamilName": "நடராஜ்கவுண்டர் ",
     "Nickname": "Nataraj Gr",
     "Gender": "Male",
     "Father": "693",
@@ -7891,7 +7891,7 @@ var jsonData = [
   {
     "ID": "708",
     "Name": "Paakiyammal",
-    "TamilName": "Paakiyammal",
+    "TamilName": "பாக்கியம்மாள்",
     "Nickname": "Nataraj Gr Wife",
     "Gender": "Female",
     "Spouse": "707",
@@ -7918,7 +7918,7 @@ var jsonData = [
   {
     "ID": "710",
     "Name": "Dhana",
-    "TamilName": "Dhana",
+    "TamilName": "தனா ",
     "Nickname": "Thirumalaisamy Wife",
     "Gender": "Female",
     "Spouse": "709",
@@ -7961,7 +7961,7 @@ var jsonData = [
   {
     "ID": "714",
     "Name": "Velliyangiri Gounder",
-    "TamilName": "வெள்ளியங்கிரி கவுண்டர் ",
+    "TamilName": "வெள்ளியங்கிரிகவுண்டர் ",
     "Nickname": "Velliyangiri Gounder",
     "Gender": "Male",
     "Father": "1010",
@@ -8030,7 +8030,7 @@ var jsonData = [
   {
     "ID": "719",
     "Name": "Nachimuthu Gounder",
-    "TamilName": "நாச்சிமுத்து கவுண்டர்",
+    "TamilName": "நாச்சிமுத்துகவுண்டர்",
     "Nickname": "Nachimuthu Gounder",
     "Gender": "Male",
     "Spouse": "718",
@@ -8102,7 +8102,7 @@ var jsonData = [
   {
     "ID": "725",
     "Name": "Nataraj Gounder",
-    "TamilName": "நடராஜ் கவுண்டர்",
+    "TamilName": "நடராஜ்கவுண்டர்",
     "Nickname": "Nataraj Gounder",
     "Gender": "Male",
     "Spouse": "724",
@@ -8290,7 +8290,7 @@ var jsonData = [
   {
     "ID": "742",
     "Name": "Velusamy Gounder",
-    "TamilName": "வேலுச்சாமி கவுண்டர்",
+    "TamilName": "வேலுச்சாமிகவுண்டர்",
     "Nickname": "Velusamy Gounder",
     "Gender": "Male",
     "Father": "1019",
@@ -8646,7 +8646,7 @@ var jsonData = [
   },
   {
     "ID": "771",
-    "Name": "Sundarappa Gr",
+    "Name": "SundarappaGounder",
     "TamilName": "சுந்தரப்பகவுண்டர்",
     "Nickname": "Sundarappa Gr",
     "Gender": "Male",
@@ -8718,8 +8718,8 @@ var jsonData = [
   },
   {
     "ID": "776",
-    "Name": "Husband",
-    "TamilName": "Husband",
+    "Name": "MinorKavundar",
+    "TamilName": "மைனர்கவுண்டர் ",
     "Nickname": "Deivaanai Husband",
     "Gender": "Male",
     "Spouse": "770",
@@ -8742,7 +8742,7 @@ var jsonData = [
   },
   {
     "ID": "778",
-    "Name": "Masaiyappa Gounder",
+    "Name": "MasaiyappaGounder",
     "TamilName": "மசையப்பகவுண்டர்",
     "Nickname": "Masaiyappa Gounder",
     "Gender": "Male",
@@ -8879,8 +8879,8 @@ var jsonData = [
   },
   {
     "ID": "789",
-    "Name": "Kandasamy Gounder",
-    "TamilName": "கந்தசாமி கவுண்டர்",
+    "Name": "KandasamyGounder",
+    "TamilName": "கந்தசாமிகவுண்டர்",
     "Nickname": "Kandasamy Gounder",
     "Gender": "Male",
     "Spouse": "774",
@@ -9077,7 +9077,7 @@ var jsonData = [
   {
     "ID": "806",
     "Name": "Mylsamy Gounder",
-    "TamilName": "மயில்சாமி கவுண்டர்",
+    "TamilName": "மயில்சாமிகவுண்டர்",
     "Nickname": "Mylsamy Gounder",
     "Gender": "Male",
     "Spouse": "777",
@@ -9249,8 +9249,8 @@ var jsonData = [
   },
   {
     "ID": "821",
-    "Name": "Daugther",
-    "TamilName": "Daugther",
+    "Name": "Kavitha",
+    "TamilName": "கவிதா ",
     "Nickname": "Easwari Daugther",
     "Gender": "Female",
     "Father": "820",
@@ -9501,8 +9501,8 @@ var jsonData = [
   },
   {
     "ID": "843",
-    "Name": "Sister",
-    "TamilName": "Sister",
+    "Name": "Palaniyammaal",
+    "TamilName": "பழனியம்மாள் ",
     "Nickname": "Sister",
     "Gender": "Female",
     "Spouse": "844",
@@ -9514,8 +9514,8 @@ var jsonData = [
   },
   {
     "ID": "844",
-    "Name": "Husband",
-    "TamilName": "Husband",
+    "Name": "Shanmugam",
+    "TamilName": "சண்முகம் ",
     "Nickname": "Sister Husband",
     "Gender": "Male",
     "Spouse": "843",
@@ -9524,8 +9524,8 @@ var jsonData = [
   },
   {
     "ID": "845",
-    "Name": "Son",
-    "TamilName": "Son",
+    "Name": "Kalimuthu",
+    "TamilName": "காளிமுத்து ",
     "Nickname": "Son",
     "Gender": "Male",
     "Father": "844",
@@ -9571,7 +9571,7 @@ var jsonData = [
   {
     "ID": "849",
     "Name": "Palanisamy Gounder",
-    "TamilName": "பழனிசாமி கவுண்டர்",
+    "TamilName": "பழனிசாமிகவுண்டர்",
     "Nickname": "Palanisamy Gounder",
     "Gender": "Male",
     "Spouse": "850",
@@ -9599,7 +9599,7 @@ var jsonData = [
   {
     "ID": "851",
     "Name": "Sivagami Sundari",
-    "TamilName": "சிவகாமி சுந்தரி ",
+    "TamilName": "சிவகாமிசுந்தரி ",
     "Nickname": "Sivagami Sundari",
     "Gender": "Female",
     "Father": "849",
@@ -10239,7 +10239,7 @@ var jsonData = [
   {
     "ID": "905",
     "Name": "Pranav Krishna",
-    "TamilName": "பிரணவ் கிருஷ்ணா",
+    "TamilName": "பிரணவ்கிருஷ்ணா",
     "Nickname": "Pranav Krishna",
     "Gender": "Male",
     "Father": "904",
@@ -10921,7 +10921,7 @@ var jsonData = [
   {
     "ID": "961",
     "Name": "Mylsamy Gr",
-    "TamilName": "மயில்சாமி கவுண்டர்",
+    "TamilName": "மயில்சாமிகவுண்டர்",
     "Nickname": "Mylsamy Gr",
     "Gender": "Male",
     "Spouse": "962",
@@ -11541,7 +11541,7 @@ var jsonData = [
   {
     "ID": "1014",
     "Name": "Kandasamy Gounder",
-    "TamilName": "கந்தசாமி கவுண்டர்",
+    "TamilName": "கந்தசாமிகவுண்டர்",
     "Nickname": "Erode Kaarar",
     "Gender": "Male",
     "Spouse": "1015",
@@ -11554,8 +11554,8 @@ var jsonData = [
   },
   {
     "ID": "1015",
-    "Name": "Wife",
-    "TamilName": "Wife",
+    "Name": "Kannammaal",
+    "TamilName": "கண்ணம்மாள்",
     "Nickname": "Erode Kaarar wife",
     "Gender": "Female",
     "Spouse": "1014",
@@ -11580,8 +11580,8 @@ var jsonData = [
   },
   {
     "ID": "1017",
-    "Name": "Daughter1",
-    "TamilName": "Daughter1",
+    "Name": "Nanjathaal",
+    "TamilName": "நஞ்சாத்தாள்",
     "Nickname": "Daughter1",
     "Gender": "Female",
     "Father": "1014",
@@ -11593,8 +11593,8 @@ var jsonData = [
   },
   {
     "ID": "1018",
-    "Name": "Daughter2",
-    "TamilName": "Daughter2",
+    "Name": "Maariyammaal",
+    "TamilName": "மாரியம்மாள் ",
     "Nickname": "Daughter2",
     "Gender": "Female",
     "Father": "1014",
@@ -11631,7 +11631,7 @@ var jsonData = [
   {
     "ID": "1021",
     "Name": "Poosaari Gounder",
-    "TamilName": "பூசாரி கவுண்டர்",
+    "TamilName": "பூசாரிகவுண்டர்",
     "Nickname": "Poosaari Gounder",
     "Gender": "Male",
     "Spouse": "1022",
@@ -11655,7 +11655,7 @@ var jsonData = [
   {
     "ID": "1023",
     "Name": "OdaiyaGounder",
-    "TamilName": "உடையா கவுண்டர்",
+    "TamilName": "உடையாகவுண்டர்",
     "Nickname": "OdaiyaGounder",
     "Gender": "Male",
     "Father": "1021",
@@ -11808,7 +11808,7 @@ var jsonData = [
   {
     "ID": "1034",
     "Name": "Ramasamy Gounder",
-    "TamilName": "ராமசாமி கவுண்டர்",
+    "TamilName": "ராமசாமிகவுண்டர்",
     "Nickname": "Ramasamy gr (methaiyuttu kaarar) (3)",
     "Gender": "Male",
     "Father": "1023",
@@ -11838,7 +11838,7 @@ var jsonData = [
   {
     "ID": "1036",
     "Name": "Muthusamy gr",
-    "TamilName": "முத்துசாமி கவுண்டர்",
+    "TamilName": "முத்துசாமிகவுண்டர்",
     "Nickname": "Muthusamy gr",
     "Gender": "Male",
     "Father": "1034",
@@ -12110,7 +12110,7 @@ var jsonData = [
   {
     "ID": "1059",
     "Name": "Murugesh Gounder",
-    "TamilName": "முருகேஷ் கவுண்டர்",
+    "TamilName": "முருகேஷ்கவுண்டர்",
     "Nickname": "Murugesh Gr",
     "Gender": "Male",
     "Spouse": "1058",
@@ -13211,7 +13211,7 @@ var jsonData = [
   {
     "ID": "1158",
     "Name": "SubaeGoundar K",
-    "TamilName": "SubaeGoundar K",
+    "TamilName": "சுப்பேகவுண்டர்.K",
     "Nickname": "Vishal mamanaar",
     "Gender": "Male",
     "Spouse": "1159",
@@ -13222,7 +13222,7 @@ var jsonData = [
   {
     "ID": "1159",
     "Name": "Janaki S",
-    "TamilName": "Janaki S",
+    "TamilName": "ஜானகி.S",
     "Nickname": "Vishal mamiyaar",
     "Gender": "Female",
     "Spouse": "1158",
@@ -13234,7 +13234,7 @@ var jsonData = [
   {
     "ID": "1160",
     "Name": "Govindaraj",
-    "TamilName": "Govindaraj",
+    "TamilName": "கோவிந்தராஜ்  ",
     "Nickname": "Thambi",
     "Gender": "Male",
     "Father": "1158",
@@ -13245,7 +13245,7 @@ var jsonData = [
   {
     "ID": "1161",
     "Name": "Easwari",
-    "TamilName": "Easwari",
+    "TamilName": "ஈஸ்வரி ",
     "Nickname": "Akka",
     "Gender": "Female",
     "Father": "1158",
@@ -13258,7 +13258,7 @@ var jsonData = [
   {
     "ID": "1162",
     "Name": "Senthil Murugavel K",
-    "TamilName": "Senthil Murugavel K",
+    "TamilName": "செந்தில்முருகவேல்.K ",
     "Nickname": "Ponnapuram",
     "Gender": "Male",
     "Spouse": "1161",
@@ -13267,7 +13267,7 @@ var jsonData = [
   {
     "ID": "1163",
     "Name": "Arun Cibi",
-    "TamilName": "Arun Cibi",
+    "TamilName": "அருண்சிபி ",
     "Nickname": "son",
     "Gender": "Male",
     "Father": "1162",
@@ -13286,7 +13286,7 @@ var jsonData = [
   {
     "ID": "1165",
     "Name": "Amaravathi",
-    "TamilName": "Amaravathi",
+    "TamilName": "அமராவதி ",
     "Nickname": "Thirumalaisamy wife",
     "Gender": "Female",
     "Spouse": "1164",
@@ -13320,7 +13320,7 @@ var jsonData = [
   {
     "ID": "1168",
     "Name": "Kanagaraj",
-    "TamilName": "Kanagaraj",
+    "TamilName": "கனகராஜ் ",
     "Nickname": "Sumathi Husband",
     "Gender": "Male",
     "Spouse": "1167",
@@ -13330,7 +13330,7 @@ var jsonData = [
   {
     "ID": "1169",
     "Name": "Anand ",
-    "TamilName": "Anand ",
+    "TamilName": "ஆனந்த் ",
     "Nickname": "Sumathi Son1",
     "Gender": "Male",
     "Father": "1168",
@@ -13341,7 +13341,7 @@ var jsonData = [
   {
     "ID": "1170",
     "Name": "Dharani",
-    "TamilName": "Dharani",
+    "TamilName": "தாரணி ",
     "Nickname": "Sumathi Son1 wife",
     "Gender": "Female",
     "Spouse": "1169"
@@ -13349,7 +13349,7 @@ var jsonData = [
   {
     "ID": "1171",
     "Name": "Suresh K",
-    "TamilName": "Suresh K",
+    "TamilName": "சுரேஷ்.K",
     "Nickname": "Sumathi Son2",
     "Gender": "Male",
     "Father": "1168",
@@ -13562,7 +13562,7 @@ var jsonData = [
   {
     "ID": "1191",
     "Name": "Kullaathaa",
-    "TamilName": "Kullaathaa",
+    "TamilName": "குள்ளாதா ",
     "Nickname": "Wife2",
     "Gender": "Female",
     "Spouse": "1187",
@@ -13574,7 +13574,7 @@ var jsonData = [
   {
     "ID": "1192",
     "Name": "Saambal-Kaarar",
-    "TamilName": "Saambal Kaarar",
+    "TamilName": "சாம்பல்காரர் ",
     "Nickname": "Saambal Kaarar",
     "Gender": "Male",
     "Father": "1187",
@@ -13687,7 +13687,7 @@ var jsonData = [
   {
     "ID": "1201",
     "Name": "Kumar",
-    "TamilName": "Kumar",
+    "TamilName": "குமார் ",
     "Nickname": "Kumar",
     "Gender": "Male",
     "Father": "1200",
@@ -13697,7 +13697,7 @@ var jsonData = [
   {
     "ID": "1202",
     "Name": "Muthammaal",
-    "TamilName": "Muthammaal",
+    "TamilName": "முத்தம்மாள் ",
     "Nickname": "Muthammaal",
     "Gender": "Female",
     "Spouse": "1203",
@@ -13707,7 +13707,7 @@ var jsonData = [
   {
     "ID": "1203",
     "Name": "Rathinamurthy",
-    "TamilName": "Rathinamurthy",
+    "TamilName": "ரத்தினமூர்த்தி ",
     "Nickname": "Husband",
     "Gender": "Male",
     "Spouse": "1202",
@@ -13716,7 +13716,7 @@ var jsonData = [
   {
     "ID": "1204",
     "Name": "Masaiyappa Gounder",
-    "TamilName": "Masaiyappa Gounder",
+    "TamilName": "மசையப்பக்கவுண்டர் ",
     "Nickname": "Masaiyappa Gounder",
     "Gender": "Male",
     "Spouse": "1205",
@@ -13742,7 +13742,7 @@ var jsonData = [
   {
     "ID": "1206",
     "Name": "Kaliayappa Gounder",
-    "TamilName": "Kaliayappa Gounder",
+    "TamilName": "காளியப்பகவுண்டர் ",
     "Nickname": "Kaliayappa Gounder",
     "Gender": "Male",
     "Father": "1204",
@@ -13768,7 +13768,7 @@ var jsonData = [
   {
     "ID": "1208",
     "Name": "Manikantan",
-    "TamilName": "Manikantan",
+    "TamilName": "மணிகண்டன் ",
     "Nickname": "Manikantan",
     "Gender": "Male",
     "Father": "1206",
@@ -13844,7 +13844,7 @@ var jsonData = [
   {
     "ID": "1215",
     "Name": "Subramani (SP)",
-    "TamilName": "Subramani (SP)",
+    "TamilName": "சுப்பிரமணி.SP",
     "Nickname": "Subramani (SP)",
     "Gender": "Male",
     "Father": "1204",
@@ -13870,7 +13870,7 @@ var jsonData = [
   {
     "ID": "1217",
     "Name": "Sekhar",
-    "TamilName": "Sekhar",
+    "TamilName": "சேகர் ",
     "Nickname": "Sekhar",
     "Gender": "Male",
     "Father": "1215",
@@ -13943,7 +13943,7 @@ var jsonData = [
   {
     "ID": "1224",
     "Name": "Selvaraj",
-    "TamilName": "Selvaraj",
+    "TamilName": "செல்வராஜ் ",
     "Nickname": "Selvaraj",
     "Gender": "Male",
     "Father": "1204",
@@ -14042,7 +14042,7 @@ var jsonData = [
   {
     "ID": "1233",
     "Name": "Paapathi ",
-    "TamilName": "Paapathi ",
+    "TamilName": "பாப்பாத்தி ",
     "Nickname": "Paapathi ",
     "Gender": "Female",
     "Father": "1204",
@@ -14111,7 +14111,7 @@ var jsonData = [
   {
     "ID": "1239",
     "Name": "Thirumalaisamy",
-    "TamilName": "Thirumalaisamy",
+    "TamilName": "திருமலைசாமி",
     "Nickname": "Thirumalaisamy",
     "Gender": "Male",
     "Father": "1204",
@@ -14135,7 +14135,7 @@ var jsonData = [
   {
     "ID": "1241",
     "Name": "Babu",
-    "TamilName": "Babu",
+    "TamilName": "பாபு ",
     "Nickname": "Babu",
     "Gender": "Male",
     "Father": "1239",
@@ -14164,7 +14164,7 @@ var jsonData = [
   {
     "ID": "1244",
     "Name": "Muthusamy Gounder",
-    "TamilName": "முத்துசாமி கவுண்டர்",
+    "TamilName": "முத்துசாமிகவுண்டர்",
     "Nickname": "Muthusamy Gounder",
     "Gender": "Male"
   },
@@ -14178,7 +14178,7 @@ var jsonData = [
   {
     "ID": "1246",
     "Name": "Thirumalaisamy Gounder",
-    "TamilName": "திருமலைசாமி கவுண்டர்",
+    "TamilName": "திருமலைசாமிகவுண்டர்",
     "Nickname": "Thirumalaisamy Gounder",
     "Gender": "Male"
   },
@@ -14262,7 +14262,7 @@ var jsonData = [
   {
     "ID": "1258",
     "Name": "Krishnasamy Gounder",
-    "TamilName": "கிருஷ்ணசாமி கவுண்டர்",
+    "TamilName": "கிருஷ்ணசாமிகவுண்டர்",
     "Nickname": "Krishnasamy Gounder",
     "Gender": "Male"
   },
