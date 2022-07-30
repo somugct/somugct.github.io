@@ -6910,9 +6910,9 @@ var jsonData = [
   },
   {
     "ID": "568",
-    "Name": "Devarai",
+    "Name": "Devaraj",
     "TamilName": "தேவராஜ்",
-    "Nickname": "Devarai",
+    "Nickname": "Devaraj",
     "Gender": "Male",
     "Father": "563",
     "Mother": "40",
@@ -6926,7 +6926,7 @@ var jsonData = [
     "ID": "569",
     "Name": "Saranya",
     "TamilName": "சரண்யா",
-    "Nickname": "Devarai wife",
+    "Nickname": "Devaraj wife",
     "Gender": "Female",
     "Spouse": "568",
     "Child1": "570",
@@ -6937,7 +6937,7 @@ var jsonData = [
     "ID": "570",
     "Name": "Dhanvika",
     "TamilName": "தன்விகா ",
-    "Nickname": "Devarai daugther",
+    "Nickname": "Devaraj daugther",
     "Gender": "Female",
     "Father": "568",
     "Mother": "569",
@@ -8656,6 +8656,8 @@ var jsonData = [
     "Father": "691",
     "Mother": "692",
     "Spouse": "702",
+    "Child1": "1351",
+    "Child2": "1352",
     "ElderSib1": "703",
     "YoungSib1": "705",
     "Occupation": "Farmer",
@@ -8663,11 +8665,13 @@ var jsonData = [
   },
   {
     "ID": "702",
-    "Name": "Wife",
-    "TamilName": "Wife",
+    "Name": "Kalaiselvi",
+    "TamilName": "கலைச்செல்வி ",
     "Nickname": "Mahendran Wife",
     "Gender": "Female",
     "Spouse": "701",
+    "Child1": "1351",
+    "Child2": "1352",
     "Occupation": "Farmer"
   },
   {
@@ -8780,8 +8784,8 @@ var jsonData = [
   },
   {
     "ID": "712",
-    "Name": "Mohanan",
-    "TamilName": "மோகனன்",
+    "Name": "Mohanraju",
+    "TamilName": "மோகன்ராஜூ ",
     "Nickname": "Mahalingam son1",
     "Gender": "Male",
     "Father": "695",
@@ -16101,5 +16105,25 @@ var jsonData = [
     "Gender": "Male",
     "Father": "1349",
     "Mother": "1348"
+  },
+  {
+    "ID": "1351",
+    "Name": "Mahalakmi",
+    "TamilName": "மஹாலக்மி ",
+    "Nickname": "Mahalakmi",
+    "Gender": "Female",
+    "Father": "701",
+    "Mother": "702",
+    "YoungSib1": "1352"
+  },
+  {
+    "ID": "1352",
+    "Name": "Dharshini",
+    "TamilName": "தர்ஷினி ",
+    "Nickname": "Dharshini",
+    "Gender": "Female",
+    "Father": "701",
+    "Mother": "702",
+    "ElderSib1": "1351"
   }
 ]
